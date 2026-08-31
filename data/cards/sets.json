@@ -1,0 +1,262 @@
+[
+  {
+    "id": "svp",
+    "code": "PR-SV",
+    "name": "Scarlet & Violet Black Star Promos",
+    "series": "Scarlet & Violet",
+    "releaseDate": "2023/01/01",
+    "ptcgoCode": "PR-SV",
+    "symbol": "https://images.pokemontcg.io/svp/symbol.png",
+    "logo": "https://images.pokemontcg.io/svp/logo.png",
+    "legalCardCount": 53,
+    "marks": [
+      "H"
+    ]
+  },
+  {
+    "id": "sve",
+    "code": "SVE",
+    "name": "Scarlet & Violet Energies",
+    "series": "Scarlet & Violet",
+    "releaseDate": "2023/03/31",
+    "ptcgoCode": "SVE",
+    "symbol": "https://images.pokemontcg.io/sve/symbol.png",
+    "logo": "https://images.pokemontcg.io/sve/logo.png",
+    "legalCardCount": 16,
+    "marks": []
+  },
+  {
+    "id": "sv5",
+    "code": "TEF",
+    "name": "Temporal Forces",
+    "series": "Scarlet & Violet",
+    "releaseDate": "2024/03/22",
+    "ptcgoCode": "TEF",
+    "symbol": "https://images.pokemontcg.io/sv5/symbol.png",
+    "logo": "https://images.pokemontcg.io/sv5/logo.png",
+    "legalCardCount": 218,
+    "marks": [
+      "H"
+    ]
+  },
+  {
+    "id": "sv6",
+    "code": "TWM",
+    "name": "Twilight Masquerade",
+    "series": "Scarlet & Violet",
+    "releaseDate": "2024/05/24",
+    "ptcgoCode": "TWM",
+    "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+    "logo": "https://images.pokemontcg.io/sv6/logo.png",
+    "legalCardCount": 226,
+    "marks": [
+      "H"
+    ]
+  },
+  {
+    "id": "sv6pt5",
+    "code": "SFA",
+    "name": "Shrouded Fable",
+    "series": "Scarlet & Violet",
+    "releaseDate": "2024/08/02",
+    "ptcgoCode": "SFA",
+    "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+    "logo": "https://images.pokemontcg.io/sv6pt5/logo.png",
+    "legalCardCount": 98,
+    "marks": [
+      "H"
+    ]
+  },
+  {
+    "id": "sv7",
+    "code": "SCR",
+    "name": "Stellar Crown",
+    "series": "Scarlet & Violet",
+    "releaseDate": "2024/09/13",
+    "ptcgoCode": "SCR",
+    "symbol": "https://images.pokemontcg.io/sv7/symbol.png",
+    "logo": "https://images.pokemontcg.io/sv7/logo.png",
+    "legalCardCount": 167,
+    "marks": [
+      "H"
+    ]
+  },
+  {
+    "id": "sv8",
+    "code": "SSP",
+    "name": "Surging Sparks",
+    "series": "Scarlet & Violet",
+    "releaseDate": "2024/11/08",
+    "ptcgoCode": "SSP",
+    "symbol": "https://images.pokemontcg.io/sv8/symbol.png",
+    "logo": "https://images.pokemontcg.io/sv8/logo.png",
+    "legalCardCount": 252,
+    "marks": [
+      "H"
+    ]
+  },
+  {
+    "id": "sv8pt5",
+    "code": "PRE",
+    "name": "Prismatic Evolutions",
+    "series": "Scarlet & Violet",
+    "releaseDate": "2025/01/17",
+    "ptcgoCode": "PRE",
+    "symbol": "https://images.pokemontcg.io/sv8pt5/symbol.png",
+    "logo": "https://images.pokemontcg.io/sv8pt5/logo.png",
+    "legalCardCount": 151,
+    "marks": [
+      "H"
+    ]
+  },
+  {
+    "id": "sv9",
+    "code": "JTG",
+    "name": "Journey Together",
+    "series": "Scarlet & Violet",
+    "releaseDate": "2025/03/28",
+    "ptcgoCode": "JTG",
+    "symbol": "https://images.pokemontcg.io/sv9/symbol.png",
+    "logo": "https://images.pokemontcg.io/sv9/logo.png",
+    "legalCardCount": 189,
+    "marks": [
+      "H",
+      "I"
+    ]
+  },
+  {
+    "id": "sv10",
+    "code": "DRI",
+    "name": "Destined Rivals",
+    "series": "Scarlet & Violet",
+    "releaseDate": "2025/05/30",
+    "ptcgoCode": "DRI",
+    "symbol": "https://images.pokemontcg.io/sv10/symbol.png",
+    "logo": "https://images.pokemontcg.io/sv10/logo.png",
+    "legalCardCount": 242,
+    "marks": [
+      "H",
+      "I"
+    ]
+  },
+  {
+    "id": "zsv10pt5",
+    "code": "BLK",
+    "name": "Black Bolt",
+    "series": "Scarlet & Violet",
+    "releaseDate": "2025/07/18",
+    "ptcgoCode": "BLK",
+    "symbol": "https://images.pokemontcg.io/zsv10pt5/symbol.png",
+    "logo": "https://images.pokemontcg.io/zsv10pt5/logo.png",
+    "legalCardCount": 171,
+    "marks": [
+      "H",
+      "I"
+    ]
+  },
+  {
+    "id": "rsv10pt5",
+    "code": "WHT",
+    "name": "White Flare",
+    "series": "Scarlet & Violet",
+    "releaseDate": "2025/07/18",
+    "ptcgoCode": "WHT",
+    "symbol": "https://images.pokemontcg.io/rsv10pt5/symbol.png",
+    "logo": "https://images.pokemontcg.io/rsv10pt5/logo.png",
+    "legalCardCount": 173,
+    "marks": [
+      "I"
+    ]
+  },
+  {
+    "id": "me1",
+    "code": "MEG",
+    "name": "Mega Evolution",
+    "series": "Mega Evolution",
+    "releaseDate": "2025/09/26",
+    "ptcgoCode": "MEG",
+    "symbol": "https://images.pokemontcg.io/me1/symbol.png",
+    "logo": "https://images.pokemontcg.io/me1/logo.png",
+    "legalCardCount": 188,
+    "marks": [
+      "H",
+      "I"
+    ]
+  },
+  {
+    "id": "me2",
+    "code": "PFL",
+    "name": "Phantasmal Flames",
+    "series": "Mega Evolution",
+    "releaseDate": "2025/11/14",
+    "ptcgoCode": "PFL",
+    "symbol": "https://images.pokemontcg.io/me2/symbol.png",
+    "logo": "https://images.pokemontcg.io/me2/logo.png",
+    "legalCardCount": 130,
+    "marks": [
+      "H",
+      "I"
+    ]
+  },
+  {
+    "id": "me2pt5",
+    "code": "ASC",
+    "name": "Ascended Heroes",
+    "series": "Mega Evolution",
+    "releaseDate": "2026/01/30",
+    "ptcgoCode": "ASC",
+    "symbol": "https://images.scrydex.com/pokemon/me2pt5-symbol/symbol",
+    "logo": "https://images.scrydex.com/pokemon/me2pt5-logo/logo",
+    "legalCardCount": 295,
+    "marks": [
+      "H",
+      "I",
+      "J"
+    ]
+  },
+  {
+    "id": "me3",
+    "code": "POR",
+    "name": "Perfect Order",
+    "series": "Mega Evolution",
+    "releaseDate": "2026/03/27",
+    "ptcgoCode": "POR",
+    "symbol": "https://images.scrydex.com/pokemon/me3-symbol/symbol",
+    "logo": "https://images.scrydex.com/pokemon/me3-logo/logo",
+    "legalCardCount": 124,
+    "marks": [
+      "I",
+      "J"
+    ]
+  },
+  {
+    "id": "me4",
+    "code": "CRI",
+    "name": "Chaos Rising",
+    "series": "Mega Evolution",
+    "releaseDate": "2026/05/22",
+    "ptcgoCode": "CRI",
+    "symbol": "https://images.scrydex.com/pokemon/me4-symbol/symbol",
+    "logo": "https://images.scrydex.com/pokemon/me4-logo/logo",
+    "legalCardCount": 122,
+    "marks": [
+      "I",
+      "J"
+    ]
+  },
+  {
+    "id": "me5",
+    "code": "PBL",
+    "name": "Pitch Black",
+    "series": "Mega Evolution",
+    "releaseDate": "2026/07/17",
+    "ptcgoCode": "PBL",
+    "symbol": "https://images.scrydex.com/pokemon/me5-symbol/symbol",
+    "logo": "https://images.scrydex.com/pokemon/me5-logo/logo",
+    "legalCardCount": 120,
+    "marks": [
+      "I",
+      "J"
+    ]
+  }
+]

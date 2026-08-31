@@ -1,7 +1,7 @@
 import type { EnergyType, RoleTag, TcgCard, TcgSet } from "../types";
-import { CARDS, SETS } from "./catalog";
+import { CARDS, SETS, CARD_ID_ALIASES } from "./catalog";
 
-export { CARDS, SETS, SET_IMAGE_IDS } from "./catalog";
+export { CARDS, SETS, SET_IMAGE_IDS, CARD_ID_ALIASES } from "./catalog";
 export { ROLE_LABELS, getRoleColor } from "./roles";
 export { FORMAT } from "../format";
 
@@ -15,12 +15,38 @@ export function getAllSets(): TcgSet[] {
 
 export function getCardById(id: string): TcgCard | undefined {
   const needle = id.trim().toLowerCase();
-  return CARDS.find((c) => c.id.toLowerCase() === needle);
+  const exact = CARDS.find((c) => c.id.toLowerCase() === needle);
+  if (exact) return exact;
+
+  const alias = CARD_ID_ALIASES[needle];
+  if (alias) {
+    const hit = CARDS.find((c) => c.id.toLowerCase() === alias.toLowerCase());
+    if (hit) return hit;
+  }
+
+  const byApi = CARDS.find((c) => c.apiId?.toLowerCase() === needle);
+  if (byApi) return byApi;
+
+  const m = /^([a-z0-9-]+)-(.+)$/i.exec(needle);
+  if (!m) return undefined;
+  const setPart = m[1]!;
+  const bare = m[2]!.replace(/^0+/, "") || m[2]!;
+  return CARDS.find((c) => {
+    const idBare = c.number.replace(/^0+/, "") || c.number;
+    const setOk =
+      c.setCode.toLowerCase() === setPart ||
+      c.setId?.toLowerCase() === setPart;
+    return setOk && idBare === bare;
+  });
 }
 
 export function getCardsBySet(code: string): TcgCard[] {
   const needle = code.trim().toUpperCase();
-  return CARDS.filter((c) => c.setCode.toUpperCase() === needle);
+  const inSet = CARDS.filter((c) => c.setCode.toUpperCase() === needle);
+  // Prefer English pool prints (have apiId). Gap-fill staples keep engine coverage
+  // without polluting expansion browsers with Limitless-number stubs.
+  const pooled = inSet.filter((c) => !!c.apiId);
+  return pooled.length > 0 ? pooled : inSet;
 }
 
 export function getLegalSets(): TcgSet[] {

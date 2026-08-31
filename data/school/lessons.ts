@@ -32,9 +32,9 @@ export const LESSONS: Lesson[] = [
         {
           prizeCount: 4,
           hand: [
-            { instanceId: "h1", cardId: "pre-132", name: "Boss's Orders" },
-            { instanceId: "h2", cardId: "scr-160", name: "Counter Catcher" },
-            { instanceId: "h3", cardId: "sfa-038", name: "Fezandipiti ex" },
+            { instanceId: "h1", cardId: "meg-114", name: "Boss's Orders" },
+            { instanceId: "h2", cardId: "lab-counter-catcher", name: "Counter Catcher" },
+            { instanceId: "h3", cardId: "sfa-38", name: "Fezandipiti ex" },
           ],
         },
         {
@@ -74,11 +74,11 @@ export const LESSONS: Lesson[] = [
         {
           prizeCount: 6,
           hand: [
-            { instanceId: "h1", cardId: "ssp-185", name: "Iono" },
+            { instanceId: "h1", cardId: "lab-iono", name: "Iono" },
             { instanceId: "h2", cardId: "pre-133", name: "Professor's Research" },
-            { instanceId: "h3", cardId: "ssp-169", name: "Arven" },
+            { instanceId: "h3", cardId: "lab-arven", name: "Arven" },
             { instanceId: "h4", cardId: "scr-133", name: "Crispin" },
-            { instanceId: "h5", cardId: "twm-144", name: "Buddy-Buddy Poffin" },
+            { instanceId: "h5", cardId: "tef-144", name: "Buddy-Buddy Poffin" },
           ],
         },
         {
@@ -119,8 +119,8 @@ export const LESSONS: Lesson[] = [
           prizeCount: 6,
           hand: [
             { instanceId: "h1", cardId: "scr-133", name: "Crispin" },
-            { instanceId: "h2", cardId: "ssp-209", name: "Psychic Energy" },
-            { instanceId: "h3", cardId: "tef-163", name: "Earthen Vessel" },
+            { instanceId: "h2", cardId: "lab-psychic-energy", name: "Psychic Energy" },
+            { instanceId: "h3", cardId: "lab-earthen-vessel", name: "Earthen Vessel" },
           ],
         },
         {
@@ -160,9 +160,9 @@ export const LESSONS: Lesson[] = [
         {
           prizeCount: 4,
           hand: [
-            { instanceId: "h1", cardId: "ssp-185", name: "Iono" },
+            { instanceId: "h1", cardId: "lab-iono", name: "Iono" },
             { instanceId: "h2", cardId: "pre-133", name: "Professor's Research" },
-            { instanceId: "h3", cardId: "ssp-196", name: "Ultra Ball" },
+            { instanceId: "h3", cardId: "meg-131", name: "Ultra Ball" },
           ],
         },
         {
@@ -201,9 +201,9 @@ export const LESSONS: Lesson[] = [
         {
           prizeCount: 3,
           hand: [
-            { instanceId: "h1", cardId: "pre-132", name: "Boss's Orders" },
-            { instanceId: "h2", cardId: "scr-160", name: "Counter Catcher" },
-            { instanceId: "h3", cardId: "ssp-185", name: "Iono" },
+            { instanceId: "h1", cardId: "meg-114", name: "Boss's Orders" },
+            { instanceId: "h2", cardId: "lab-counter-catcher", name: "Counter Catcher" },
+            { instanceId: "h3", cardId: "lab-iono", name: "Iono" },
           ],
         },
         {
@@ -242,9 +242,9 @@ export const LESSONS: Lesson[] = [
         {
           prizeCount: 4,
           hand: [
-            { instanceId: "h1", cardId: "pre-132", name: "Boss's Orders" },
-            { instanceId: "h2", cardId: "scr-160", name: "Counter Catcher" },
-            { instanceId: "h3", cardId: "sfa-072", name: "Munkidori" },
+            { instanceId: "h1", cardId: "meg-114", name: "Boss's Orders" },
+            { instanceId: "h2", cardId: "lab-counter-catcher", name: "Counter Catcher" },
+            { instanceId: "h3", cardId: "twm-95", name: "Munkidori" },
           ],
         },
         {
@@ -284,7 +284,7 @@ export const LESSONS: Lesson[] = [
         {
           prizeCount: 5,
           hand: [
-            { instanceId: "h1", cardId: "ssp-194", name: "Switch" },
+            { instanceId: "h1", cardId: "meg-130", name: "Switch" },
           ],
         },
         {
@@ -324,13 +324,13 @@ export const LESSONS: Lesson[] = [
         {
           prizeCount: 6,
           hand: [
-            { instanceId: "h1", cardId: "ssp-196", name: "Ultra Ball" },
-            { instanceId: "h2", cardId: "ssp-191", name: "Rare Candy" },
+            { instanceId: "h1", cardId: "meg-131", name: "Ultra Ball" },
+            { instanceId: "h2", cardId: "meg-125", name: "Rare Candy" },
             { instanceId: "h3", cardId: "pre-133", name: "Professor's Research" },
-            { instanceId: "h4", cardId: "ssp-209", name: "Psychic Energy" },
-            { instanceId: "h5", cardId: "ssp-209", name: "Psychic Energy" },
+            { instanceId: "h4", cardId: "lab-psychic-energy", name: "Psychic Energy" },
+            { instanceId: "h5", cardId: "lab-psychic-energy", name: "Psychic Energy" },
             { instanceId: "h6", cardId: "twm-130", name: "Dragapult ex" },
-            { instanceId: "h7", cardId: "sfa-038", name: "Fezandipiti ex" },
+            { instanceId: "h7", cardId: "sfa-38", name: "Fezandipiti ex" },
           ],
         },
         {

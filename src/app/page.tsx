@@ -165,7 +165,7 @@ export default function CardLabPage() {
         <div className="mb-4">
           <h2 className="font-heading text-xl font-semibold">Legal expansions</h2>
           <p className="text-sm text-muted-foreground">
-            Sets with cards currently legal in {FORMAT_NAME}.
+            Sets with cards currently legal in {FORMAT_NAME} ({sets.reduce((n, s) => n + s.legalCardCount, 0)} cards).
           </p>
         </div>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">

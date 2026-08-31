@@ -1,0 +1,1053 @@
+[
+  {
+    "key": "SSP|196|Ultra Ball",
+    "name": "Ultra Ball",
+    "setCode": "SSP",
+    "number": "196",
+    "roles": [
+      "search",
+      "engine"
+    ],
+    "whenGood": "Core consistency for every Evolution deck.",
+    "whenBrick": "Costs two discards — painful when hand is thin.",
+    "scripted": true
+  },
+  {
+    "key": "PFL|068|Nest Ball",
+    "name": "Nest Ball",
+    "setCode": "PFL",
+    "number": "068",
+    "roles": [
+      "search",
+      "starter"
+    ],
+    "whenGood": "Sets up Bench early without discarding.",
+    "whenBrick": "Bricks mid/late when Bench is full or Basics are gone.",
+    "scripted": true
+  },
+  {
+    "key": "TWM|144|Buddy-Buddy Poffin",
+    "name": "Buddy-Buddy Poffin",
+    "setCode": "TWM",
+    "number": "144",
+    "roles": [
+      "search",
+      "starter",
+      "engine"
+    ],
+    "whenGood": "Best early Bench loader for 70 HP Basics.",
+    "whenBrick": "Dead if no low-HP Basics left or Bench is full.",
+    "scripted": true
+  },
+  {
+    "key": "SSP|191|Rare Candy",
+    "name": "Rare Candy",
+    "setCode": "SSP",
+    "number": "191",
+    "roles": [
+      "engine",
+      "search"
+    ],
+    "whenGood": "Turns on Stage 2 attackers one turn earlier.",
+    "whenBrick": "Dead without matching Basic + Stage 2 in hand.",
+    "scripted": true
+  },
+  {
+    "key": "PRE|132|Boss's Orders",
+    "name": "Boss's Orders",
+    "setCode": "PRE",
+    "number": "132",
+    "roles": [
+      "gust",
+      "disruption"
+    ],
+    "whenGood": "Prize mapping and KO sequencing.",
+    "whenBrick": "Wasted without a KO follow-up or when Bench is empty.",
+    "scripted": true
+  },
+  {
+    "key": "SCR|160|Counter Catcher",
+    "name": "Counter Catcher",
+    "setCode": "SCR",
+    "number": "160",
+    "roles": [
+      "gust",
+      "tech"
+    ],
+    "whenGood": "Comeback gust when behind on prizes.",
+    "whenBrick": "Illegal / blank when ahead or tied on prizes.",
+    "scripted": true
+  },
+  {
+    "key": "SSP|185|Iono",
+    "name": "Iono",
+    "setCode": "SSP",
+    "number": "185",
+    "roles": [
+      "draw",
+      "disruption"
+    ],
+    "whenGood": "Refills your hand and wrecks theirs mid-game.",
+    "whenBrick": "Can refill an opponent who was bricked.",
+    "scripted": true
+  },
+  {
+    "key": "PRE|133|Professor's Research",
+    "name": "Professor's Research",
+    "setCode": "PRE",
+    "number": "133",
+    "roles": [
+      "draw",
+      "engine"
+    ],
+    "whenGood": "Raw redraw when the hand is disposable.",
+    "whenBrick": "Discards key pieces you still needed.",
+    "scripted": true
+  },
+  {
+    "key": "SSP|169|Arven",
+    "name": "Arven",
+    "setCode": "SSP",
+    "number": "169",
+    "roles": [
+      "search",
+      "engine"
+    ],
+    "whenGood": "Fetches ACE SPEC / Tool + consistency Item in one supporter.",
+    "whenBrick": "Soft if you need draw more than tutor.",
+    "scripted": true
+  },
+  {
+    "key": "SCR|133|Crispin",
+    "name": "Crispin",
+    "setCode": "SCR",
+    "number": "133",
+    "roles": [
+      "engine",
+      "search"
+    ],
+    "whenGood": "Dual-type ramp for Dragapult / multi-energy attackers.",
+    "whenBrick": "Blank if you only run one Energy type.",
+    "scripted": true
+  },
+  {
+    "key": "SFA|061|Night Stretcher",
+    "name": "Night Stretcher",
+    "setCode": "SFA",
+    "number": "061",
+    "roles": [
+      "search",
+      "engine"
+    ],
+    "whenGood": "Recovers discarded attackers and Energy.",
+    "whenBrick": "Dead if discard is empty of targets.",
+    "scripted": true
+  },
+  {
+    "key": "TEF|163|Earthen Vessel",
+    "name": "Earthen Vessel",
+    "setCode": "TEF",
+    "number": "163",
+    "roles": [
+      "search",
+      "engine"
+    ],
+    "whenGood": "Fast Energy tutor after a discard.",
+    "whenBrick": "Needs a discardable card in hand.",
+    "scripted": true
+  },
+  {
+    "key": "PRE|138|Super Rod",
+    "name": "Super Rod",
+    "setCode": "PRE",
+    "number": "138",
+    "roles": [
+      "engine",
+      "heal"
+    ],
+    "whenGood": "Recycles prized/discarded resources for long games.",
+    "whenBrick": "Slow when you need immediate hand cards.",
+    "scripted": true
+  },
+  {
+    "key": "SSP|194|Switch",
+    "name": "Switch",
+    "setCode": "SSP",
+    "number": "194",
+    "roles": [
+      "tech"
+    ],
+    "whenGood": "Retreat without paying Energy; pivots into attackers.",
+    "whenBrick": "Dead with empty Bench.",
+    "scripted": true
+  },
+  {
+    "key": "SSP|186|Pokégear 3.0",
+    "name": "Pokégear 3.0",
+    "setCode": "SSP",
+    "number": "186",
+    "roles": [
+      "search",
+      "engine"
+    ],
+    "whenGood": "Finds Boss/Iono/Research on curve.",
+    "whenBrick": "Misses if Supporters are deep or already in hand.",
+    "scripted": true
+  },
+  {
+    "key": "SSP|187|Poké Ball",
+    "name": "Poké Ball",
+    "setCode": "SSP",
+    "number": "187",
+    "roles": [
+      "search"
+    ],
+    "whenGood": "Budget Pokémon search when Ultra Ball density is low.",
+    "whenBrick": "50% miss rate — unreliable.",
+    "scripted": true
+  },
+  {
+    "key": "SSP|172|Energy Switch",
+    "name": "Energy Switch",
+    "setCode": "SSP",
+    "number": "172",
+    "roles": [
+      "engine",
+      "tech"
+    ],
+    "whenGood": "Repositions Energy after KOs or onto a fresh attacker.",
+    "whenBrick": "Dead without Energy on board.",
+    "scripted": true
+  },
+  {
+    "key": "SSP|170|Crushing Hammer",
+    "name": "Crushing Hammer",
+    "setCode": "SSP",
+    "number": "170",
+    "roles": [
+      "disruption",
+      "tech"
+    ],
+    "whenGood": "Slows single-Energy attackers and Tools-on-Energy lines.",
+    "whenBrick": "Coin-flip Item — often a brick.",
+    "scripted": true
+  },
+  {
+    "key": "SFA|062|Unfair Stamp",
+    "name": "Unfair Stamp",
+    "setCode": "SFA",
+    "number": "062",
+    "roles": [
+      "ace-spec",
+      "disruption"
+    ],
+    "whenGood": "Locks Item-heavy decks after a decisive KO turn.",
+    "whenBrick": "Soft vs decks that do not lean on Items.",
+    "scripted": true
+  },
+  {
+    "key": "TWM|163|Secret Box",
+    "name": "Secret Box",
+    "setCode": "TWM",
+    "number": "163",
+    "roles": [
+      "ace-spec",
+      "search",
+      "engine"
+    ],
+    "whenGood": "One-card toolbox grab for combo turns.",
+    "whenBrick": "Costs 3 discards — catastrophic on thin hands.",
+    "scripted": true
+  },
+  {
+    "key": "SFA|038|Fezandipiti ex",
+    "name": "Fezandipiti ex",
+    "setCode": "SFA",
+    "number": "038",
+    "roles": [
+      "draw",
+      "engine",
+      "attacker"
+    ],
+    "whenGood": "Format draw engine once damaged; snipes Bench.",
+    "whenBrick": "Needs damage on itself and Psychic Energy for attack.",
+    "scripted": true
+  },
+  {
+    "key": "SFA|072|Munkidori",
+    "name": "Munkidori",
+    "setCode": "SFA",
+    "number": "072",
+    "roles": [
+      "tech",
+      "engine"
+    ],
+    "whenGood": "Moves chip damage onto KO ranges for Dragapult lines.",
+    "whenBrick": "Needs damage on itself and setup space.",
+    "scripted": true
+  },
+  {
+    "key": "TWM|128|Dreepy",
+    "name": "Dreepy",
+    "setCode": "TWM",
+    "number": "128",
+    "roles": [
+      "starter"
+    ],
+    "whenGood": "Poffin target into Dragapult.",
+    "whenBrick": "Dead late without Rare Candy / Stage pieces."
+  },
+  {
+    "key": "TWM|129|Drakloak",
+    "name": "Drakloak",
+    "setCode": "TWM",
+    "number": "129",
+    "roles": [
+      "engine"
+    ],
+    "whenGood": "Filter draw while climbing into Dragapult.",
+    "whenBrick": "Often skipped with Rare Candy."
+  },
+  {
+    "key": "TWM|130|Dragapult ex",
+    "name": "Dragapult ex",
+    "setCode": "TWM",
+    "number": "130",
+    "roles": [
+      "attacker",
+      "engine"
+    ],
+    "whenGood": "Spread-then-snipe with Boss/Counter Catcher closes games.",
+    "whenBrick": "Loses to faster single-prize pressure and rough Psychic techs."
+  },
+  {
+    "key": "TWM|018|Dipplin",
+    "name": "Dipplin",
+    "setCode": "TWM",
+    "number": "018",
+    "roles": [
+      "engine",
+      "attacker"
+    ],
+    "whenGood": "Enables Festival Grounds loop with Thwackey/Seaking.",
+    "whenBrick": "Needs Stadium lock and Applin setup."
+  },
+  {
+    "key": "TWM|017|Applin",
+    "name": "Applin",
+    "setCode": "TWM",
+    "number": "017",
+    "roles": [
+      "starter"
+    ],
+    "whenGood": "Into Dipplin for Festival Lead.",
+    "whenBrick": "Tiny HP — easy KO before evolution."
+  },
+  {
+    "key": "TWM|015|Thwackey",
+    "name": "Thwackey",
+    "setCode": "TWM",
+    "number": "015",
+    "roles": [
+      "engine",
+      "attacker"
+    ],
+    "whenGood": "Second Festival Lead body for Stadium loop.",
+    "whenBrick": "Needs Grookey and Stadium."
+  },
+  {
+    "key": "TWM|014|Grookey",
+    "name": "Grookey",
+    "setCode": "TWM",
+    "number": "014",
+    "roles": [
+      "starter"
+    ],
+    "whenGood": "Poffinable into Thwackey.",
+    "whenBrick": "Without evolution it's a weak Basic."
+  },
+  {
+    "key": "SCR|028|Seaking",
+    "name": "Seaking",
+    "setCode": "SCR",
+    "number": "028",
+    "roles": [
+      "attacker",
+      "engine"
+    ],
+    "whenGood": "Stadium-on payoff attacker for Festival Lead.",
+    "whenBrick": "Blank without Festival Grounds."
+  },
+  {
+    "key": "SCR|027|Goldeen",
+    "name": "Goldeen",
+    "setCode": "SCR",
+    "number": "027",
+    "roles": [
+      "starter"
+    ],
+    "whenGood": "Into Seaking for Festival.",
+    "whenBrick": "Low impact alone."
+  },
+  {
+    "key": "TEF|149|Festival Grounds",
+    "name": "Festival Grounds",
+    "setCode": "TEF",
+    "number": "149",
+    "roles": [
+      "engine"
+    ],
+    "whenGood": "Turns on Festival Lead cost reduction and bulk.",
+    "whenBrick": "Shared — opponent Festival pieces also benefit."
+  },
+  {
+    "key": "TWM|152|Lacey",
+    "name": "Lacey",
+    "setCode": "TWM",
+    "number": "152",
+    "roles": [
+      "draw"
+    ],
+    "whenGood": "Late-game Festival / combo redraw.",
+    "whenBrick": "Weak early when prizes are high."
+  },
+  {
+    "key": "SFA|019|Duskull",
+    "name": "Duskull",
+    "setCode": "SFA",
+    "number": "019",
+    "roles": [
+      "starter"
+    ],
+    "whenGood": "Into Dusknoir for Cursed Blast KO help.",
+    "whenBrick": "Dead draw without Stage 2 package."
+  },
+  {
+    "key": "SFA|020|Dusclops",
+    "name": "Dusclops",
+    "setCode": "SFA",
+    "number": "020",
+    "roles": [
+      "engine"
+    ],
+    "whenGood": "Bridge into Dusknoir.",
+    "whenBrick": "Often Candied past."
+  },
+  {
+    "key": "SFA|021|Dusknoir",
+    "name": "Dusknoir",
+    "setCode": "SFA",
+    "number": "021",
+    "roles": [
+      "tech",
+      "attacker"
+    ],
+    "whenGood": "Sacrificial KO enabler with Dragapult spread.",
+    "whenBrick": "Self-KO costs a prize — timing matters."
+  },
+  {
+    "key": "JTG|024|Torchic",
+    "name": "Torchic",
+    "setCode": "JTG",
+    "number": "024",
+    "roles": [
+      "starter"
+    ],
+    "whenGood": "Into Blaziken ex Fire partner package.",
+    "whenBrick": "Off-type in pure Psychic Dragapult."
+  },
+  {
+    "key": "JTG|025|Combusken",
+    "name": "Combusken",
+    "setCode": "JTG",
+    "number": "025",
+    "roles": [
+      "engine"
+    ],
+    "whenGood": "Bridge to Blaziken ex.",
+    "whenBrick": "Skipped with Rare Candy."
+  },
+  {
+    "key": "JTG|026|Blaziken ex",
+    "name": "Blaziken ex",
+    "setCode": "JTG",
+    "number": "026",
+    "roles": [
+      "attacker",
+      "tech"
+    ],
+    "whenGood": "Bench pressure partner for Dragapult variants.",
+    "whenBrick": "Needs Fire Energy and Candy; prized Torchic hurts."
+  },
+  {
+    "key": "MEG|048|Drilbur",
+    "name": "Drilbur",
+    "setCode": "MEG",
+    "number": "048",
+    "roles": [
+      "starter"
+    ],
+    "whenGood": "Into Mega Excadrill ex.",
+    "whenBrick": "High retreat for a Basic."
+  },
+  {
+    "key": "MEG|049|Excadrill",
+    "name": "Excadrill",
+    "setCode": "MEG",
+    "number": "049",
+    "roles": [
+      "attacker"
+    ],
+    "whenGood": "Bridge / backup before Mega Evolution.",
+    "whenBrick": "Outclassed once Mega Excadrill is online."
+  },
+  {
+    "key": "MEG|050|Mega Excadrill ex",
+    "name": "Mega Excadrill ex",
+    "setCode": "MEG",
+    "number": "050",
+    "roles": [
+      "attacker"
+    ],
+    "whenGood": "High HP tank that closes 2-prizes cleanly.",
+    "whenBrick": "Self-Bench damage and Grass Weakness."
+  },
+  {
+    "key": "DRI|098|N's Zorua",
+    "name": "N's Zorua",
+    "setCode": "DRI",
+    "number": "098",
+    "roles": [
+      "starter"
+    ],
+    "whenGood": "N's lineage into Zoroark ex.",
+    "whenBrick": "Needs N's Zoroark specifically."
+  },
+  {
+    "key": "DRI|099|N's Zoroark ex",
+    "name": "N's Zoroark ex",
+    "setCode": "DRI",
+    "number": "099",
+    "roles": [
+      "attacker",
+      "draw",
+      "engine",
+      "disruption"
+    ],
+    "whenGood": "Trade engine plus hand disruption closer.",
+    "whenBrick": "Trade discards precious pieces; Grass Weakness."
+  },
+  {
+    "key": "DRI|158|N's Plan",
+    "name": "N's Plan",
+    "setCode": "DRI",
+    "number": "158",
+    "roles": [
+      "draw",
+      "engine"
+    ],
+    "whenGood": "Synergizes with N's Pokémon disruption plans.",
+    "whenBrick": "Competes with Iono/Research for supporter slot."
+  },
+  {
+    "key": "PFL|033|Cleffa",
+    "name": "Cleffa",
+    "setCode": "PFL",
+    "number": "033",
+    "roles": [
+      "draw",
+      "starter"
+    ],
+    "whenGood": "Free retreat draw Baby for box shells.",
+    "whenBrick": "30 HP — dies to any chip."
+  },
+  {
+    "key": "PFL|034|Clefairy",
+    "name": "Clefairy",
+    "setCode": "PFL",
+    "number": "034",
+    "roles": [
+      "engine",
+      "starter",
+      "tech"
+    ],
+    "whenGood": "Box enabler that tutors diverse Basics.",
+    "whenBrick": "Metronome needs a useful opposing attack."
+  },
+  {
+    "key": "PFL|035|Clefable ex",
+    "name": "Clefable ex",
+    "setCode": "PFL",
+    "number": "035",
+    "roles": [
+      "attacker",
+      "engine"
+    ],
+    "whenGood": "Flexible closer for Clefairy box shells.",
+    "whenBrick": "Metal Weakness and Stage 1 tempo."
+  },
+  {
+    "key": "MEG|061|Gastly",
+    "name": "Gastly",
+    "setCode": "MEG",
+    "number": "061",
+    "roles": [
+      "starter"
+    ],
+    "whenGood": "Into Mega Gengar ex.",
+    "whenBrick": "Fragile Basic."
+  },
+  {
+    "key": "MEG|062|Haunter",
+    "name": "Haunter",
+    "setCode": "MEG",
+    "number": "062",
+    "roles": [
+      "engine"
+    ],
+    "whenGood": "Bridge to Mega Gengar.",
+    "whenBrick": "Often Candied past."
+  },
+  {
+    "key": "MEG|063|Mega Gengar ex",
+    "name": "Mega Gengar ex",
+    "setCode": "MEG",
+    "number": "063",
+    "roles": [
+      "attacker",
+      "disruption"
+    ],
+    "whenGood": "Pivot pressure plus sleep disruption.",
+    "whenBrick": "Stage 2 Mega ramp; Darkness Weakness."
+  },
+  {
+    "key": "MEG|012|Charmander",
+    "name": "Charmander",
+    "setCode": "MEG",
+    "number": "012",
+    "roles": [
+      "starter"
+    ],
+    "whenGood": "Into Mega Charizard Y ex stub line.",
+    "whenBrick": "Self-discard on attack."
+  },
+  {
+    "key": "MEG|013|Charmeleon",
+    "name": "Charmeleon",
+    "setCode": "MEG",
+    "number": "013",
+    "roles": [
+      "engine"
+    ],
+    "whenGood": "Bridge to Mega Charizard Y.",
+    "whenBrick": "Candied past in dedicated builds."
+  },
+  {
+    "key": "ASC|019|Mega Charizard Y ex",
+    "name": "Mega Charizard Y ex",
+    "setCode": "ASC",
+    "number": "019",
+    "roles": [
+      "attacker"
+    ],
+    "whenGood": "High ceiling Fire Mega attacker.",
+    "whenBrick": "Energy hungry; Water Weakness."
+  },
+  {
+    "key": "TEF|060|Iron Hands ex",
+    "name": "Iron Hands ex",
+    "setCode": "TEF",
+    "number": "060",
+    "roles": [
+      "attacker"
+    ],
+    "whenGood": "Prize-positive closer vs single-prize lines.",
+    "whenBrick": "High retreat; Fighting Weakness."
+  },
+  {
+    "key": "TEF|145|Heavy Baton",
+    "name": "Heavy Baton",
+    "setCode": "TEF",
+    "number": "145",
+    "roles": [
+      "tech"
+    ],
+    "whenGood": "Energy transfer on KO for tanky Basics.",
+    "whenBrick": "Blank on low-retreat attackers."
+  },
+  {
+    "key": "SCR|087|Terapagos ex",
+    "name": "Terapagos ex",
+    "setCode": "SCR",
+    "number": "087",
+    "roles": [
+      "attacker"
+    ],
+    "whenGood": "Ability-heavy Bench payoff.",
+    "whenBrick": "Needs populated Ability Bench."
+  },
+  {
+    "key": "SSP|057|Pikachu ex",
+    "name": "Pikachu ex",
+    "setCode": "SSP",
+    "number": "057",
+    "roles": [
+      "attacker"
+    ],
+    "whenGood": "Bench-count aggro.",
+    "whenBrick": "Falls off vs gust and spread."
+  },
+  {
+    "key": "PRE|025|Eevee",
+    "name": "Eevee",
+    "setCode": "PRE",
+    "number": "025",
+    "roles": [
+      "starter"
+    ],
+    "whenGood": "Flexible evolution bridge in Prismatic shells.",
+    "whenBrick": "Without Eeveelutions it's filler."
+  },
+  {
+    "key": "PRE|034|Sylveon ex",
+    "name": "Sylveon ex",
+    "setCode": "PRE",
+    "number": "034",
+    "roles": [
+      "engine",
+      "attacker"
+    ],
+    "whenGood": "Psychic attach support for Dragapult-adjacent shells.",
+    "whenBrick": "Competes for Bench and Energy."
+  },
+  {
+    "key": "JTG|112|Lillie's Clefairy ex",
+    "name": "Lillie's Clefairy ex",
+    "setCode": "JTG",
+    "number": "112",
+    "roles": [
+      "attacker",
+      "tech"
+    ],
+    "whenGood": "Dragon check and Lillie synergy.",
+    "whenBrick": "Narrow outside Dragon matchups."
+  },
+  {
+    "key": "JTG|145|Lillie",
+    "name": "Lillie",
+    "setCode": "JTG",
+    "number": "145",
+    "roles": [
+      "draw"
+    ],
+    "whenGood": "Gentle early redraw.",
+    "whenBrick": "Weak when already at 6+ cards."
+  },
+  {
+    "key": "DRI|045|Team Rocket's Mewtwo ex",
+    "name": "Team Rocket's Mewtwo ex",
+    "setCode": "DRI",
+    "number": "045",
+    "roles": [
+      "attacker",
+      "disruption"
+    ],
+    "whenGood": "Punishes fat hands after Iono fails.",
+    "whenBrick": "Soft vs thin hands."
+  },
+  {
+    "key": "BLK|077|Zekrom ex",
+    "name": "Zekrom ex",
+    "setCode": "BLK",
+    "number": "077",
+    "roles": [
+      "attacker"
+    ],
+    "whenGood": "Straightforward Lightning beatstick.",
+    "whenBrick": "Recoil plus Fighting Weakness."
+  },
+  {
+    "key": "BLK|120|Black Bolt Badge",
+    "name": "Black Bolt Badge",
+    "setCode": "BLK",
+    "number": "120",
+    "roles": [
+      "engine",
+      "search"
+    ],
+    "whenGood": "Accelerates Zekrom lines.",
+    "whenBrick": "Dead off Lightning."
+  },
+  {
+    "key": "WHT|078|Reshiram ex",
+    "name": "Reshiram ex",
+    "setCode": "WHT",
+    "number": "078",
+    "roles": [
+      "attacker"
+    ],
+    "whenGood": "High damage Fire Basic.",
+    "whenBrick": "Energy discard tax; Water Weakness."
+  },
+  {
+    "key": "WHT|121|White Flare Badge",
+    "name": "White Flare Badge",
+    "setCode": "WHT",
+    "number": "121",
+    "roles": [
+      "engine",
+      "search"
+    ],
+    "whenGood": "Fuels Reshiram / Charizard lines.",
+    "whenBrick": "Dead off Fire."
+  },
+  {
+    "key": "PFL|090|Phantom Arena",
+    "name": "Phantom Arena",
+    "setCode": "PFL",
+    "number": "090",
+    "roles": [
+      "engine",
+      "tech"
+    ],
+    "whenGood": "Softens Mega KO losses.",
+    "whenBrick": "Helps both players."
+  },
+  {
+    "key": "ASC|055|Hero's Bond",
+    "name": "Hero's Bond",
+    "setCode": "ASC",
+    "number": "055",
+    "roles": [
+      "search"
+    ],
+    "whenGood": "Tutors Mega Charizard / Mega Gengar pieces.",
+    "whenBrick": "Dead without Mega Stage in deck."
+  },
+  {
+    "key": "POR|088|Order Tablet",
+    "name": "Order Tablet",
+    "setCode": "POR",
+    "number": "088",
+    "roles": [
+      "search",
+      "engine"
+    ],
+    "whenGood": "Finds Stadium/ACE SPEC without discarding.",
+    "whenBrick": "Misses if those cards are deep."
+  },
+  {
+    "key": "POR|041|Perfect Order Rotom",
+    "name": "Perfect Order Rotom",
+    "setCode": "POR",
+    "number": "041",
+    "roles": [
+      "engine",
+      "tech"
+    ],
+    "whenGood": "Item filter for toolbox decks.",
+    "whenBrick": "Low HP Basic."
+  },
+  {
+    "key": "SVP|148|Pecharunt ex",
+    "name": "Pecharunt ex",
+    "setCode": "SVP",
+    "number": "148",
+    "roles": [
+      "engine",
+      "attacker"
+    ],
+    "whenGood": "Darkness pivot engine for Munkidori/N lines.",
+    "whenBrick": "Self-Poison and Fighting Weakness."
+  },
+  {
+    "key": "MEP|001|Mega Ring",
+    "name": "Mega Ring",
+    "setCode": "MEP",
+    "number": "001",
+    "roles": [
+      "tech",
+      "heal"
+    ],
+    "whenGood": "Bulk for Mega Excadrill / Mega Gengar.",
+    "whenBrick": "Blank on non-Mega attackers."
+  },
+  {
+    "key": "SSP|178|Artazon",
+    "name": "Artazon",
+    "setCode": "SSP",
+    "number": "178",
+    "roles": [
+      "engine",
+      "search"
+    ],
+    "whenGood": "Shared Basic setup Stadium.",
+    "whenBrick": "Opponent also builds Bench."
+  },
+  {
+    "key": "SFA|060|PokéVital A",
+    "name": "PokéVital A",
+    "setCode": "SFA",
+    "number": "060",
+    "roles": [
+      "heal",
+      "tech"
+    ],
+    "whenGood": "Big heal for damaged Fez / attackers.",
+    "whenBrick": "Forces Tool discard after heal."
+  },
+  {
+    "key": "SCR|135|Briar",
+    "name": "Briar",
+    "setCode": "SCR",
+    "number": "135",
+    "roles": [
+      "tech"
+    ],
+    "whenGood": "Prize-positive endgame vs 2-prize board states.",
+    "whenBrick": "Timing-restricted supporter."
+  },
+  {
+    "key": "TEF|146|Maximum Belt",
+    "name": "Maximum Belt",
+    "setCode": "TEF",
+    "number": "146",
+    "roles": [
+      "tech"
+    ],
+    "whenGood": "Pushes OHKOs on opposing ex.",
+    "whenBrick": "Dead vs non-ex Active."
+  },
+  {
+    "key": "SSP|209|Psychic Energy",
+    "name": "Psychic Energy",
+    "setCode": "SSP",
+    "number": "209",
+    "roles": [
+      "engine"
+    ],
+    "whenGood": "Fuels attackers of this type.",
+    "whenBrick": "Dead if you are off-type or flooded.",
+    "scripted": true
+  },
+  {
+    "key": "SSP|210|Fire Energy",
+    "name": "Fire Energy",
+    "setCode": "SSP",
+    "number": "210",
+    "roles": [
+      "engine"
+    ],
+    "whenGood": "Fuels attackers of this type.",
+    "whenBrick": "Dead if you are off-type or flooded.",
+    "scripted": true
+  },
+  {
+    "key": "SSP|211|Grass Energy",
+    "name": "Grass Energy",
+    "setCode": "SSP",
+    "number": "211",
+    "roles": [
+      "engine"
+    ],
+    "whenGood": "Fuels attackers of this type.",
+    "whenBrick": "Dead if you are off-type or flooded.",
+    "scripted": true
+  },
+  {
+    "key": "SSP|212|Water Energy",
+    "name": "Water Energy",
+    "setCode": "SSP",
+    "number": "212",
+    "roles": [
+      "engine"
+    ],
+    "whenGood": "Fuels attackers of this type.",
+    "whenBrick": "Dead if you are off-type or flooded.",
+    "scripted": true
+  },
+  {
+    "key": "SSP|213|Lightning Energy",
+    "name": "Lightning Energy",
+    "setCode": "SSP",
+    "number": "213",
+    "roles": [
+      "engine"
+    ],
+    "whenGood": "Fuels attackers of this type.",
+    "whenBrick": "Dead if you are off-type or flooded.",
+    "scripted": true
+  },
+  {
+    "key": "SSP|214|Fighting Energy",
+    "name": "Fighting Energy",
+    "setCode": "SSP",
+    "number": "214",
+    "roles": [
+      "engine"
+    ],
+    "whenGood": "Fuels attackers of this type.",
+    "whenBrick": "Dead if you are off-type or flooded.",
+    "scripted": true
+  },
+  {
+    "key": "SSP|215|Darkness Energy",
+    "name": "Darkness Energy",
+    "setCode": "SSP",
+    "number": "215",
+    "roles": [
+      "engine"
+    ],
+    "whenGood": "Fuels attackers of this type.",
+    "whenBrick": "Dead if you are off-type or flooded.",
+    "scripted": true
+  },
+  {
+    "key": "SSP|216|Metal Energy",
+    "name": "Metal Energy",
+    "setCode": "SSP",
+    "number": "216",
+    "roles": [
+      "engine"
+    ],
+    "whenGood": "Fuels attackers of this type.",
+    "whenBrick": "Dead if you are off-type or flooded.",
+    "scripted": true
+  },
+  {
+    "key": "MEG|100|Psychic Energy",
+    "name": "Psychic Energy",
+    "setCode": "MEG",
+    "number": "100",
+    "roles": [
+      "engine"
+    ],
+    "whenGood": "Fuels attackers of this type.",
+    "whenBrick": "Dead if you are off-type or flooded.",
+    "scripted": true
+  },
+  {
+    "key": "MEG|101|Fire Energy",
+    "name": "Fire Energy",
+    "setCode": "MEG",
+    "number": "101",
+    "roles": [
+      "engine"
+    ],
+    "whenGood": "Fuels attackers of this type.",
+    "whenBrick": "Dead if you are off-type or flooded.",
+    "scripted": true
+  },
+  {
+    "key": "MEG|102|Fighting Energy",
+    "name": "Fighting Energy",
+    "setCode": "MEG",
+    "number": "102",
+    "roles": [
+      "engine"
+    ],
+    "whenGood": "Fuels attackers of this type.",
+    "whenBrick": "Dead if you are off-type or flooded.",
+    "scripted": true
+  }
+]

@@ -43,6 +43,7 @@ export function isCardStandardLegal(opts: {
 }): boolean {
   if (opts.id && BANNED_CARD_IDS.includes(opts.id)) return false;
   if (opts.legalities?.standard === "Banned") return false;
-  if (opts.legalities?.standard === "Legal") return true;
-  return isMarkLegal(opts.regulationMark);
+  // Prefer regulation mark — upstream `legalities.standard` is often stale post-rotation
+  if (opts.regulationMark) return isMarkLegal(opts.regulationMark);
+  return opts.legalities?.standard === "Legal";
 }

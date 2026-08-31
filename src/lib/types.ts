@@ -44,8 +44,11 @@ export interface CardAbility {
 
 export interface TcgCard {
   id: string;
+  /** Upstream PokemonTCG API id (e.g. sv6-130) when different from lab id */
+  apiId?: string;
   name: string;
   setCode: string;
+  setId?: string;
   setName: string;
   number: string;
   regulationMark: string;

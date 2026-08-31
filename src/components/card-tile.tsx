@@ -1,17 +1,34 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import Link from "next/link";
 import type { TcgCard } from "@/lib/types";
 import { ROLE_LABELS, getRoleColor } from "@/lib/cards";
 import { Badge } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
 
-function artUrl(card: TcgCard, large = false): string | undefined {
-  const raw = large ? card.imageLarge : card.imageSmall;
-  if (!raw) return undefined;
-  // pokemontcg.io uses unpadded collector numbers
+function normalizeArtUrl(raw: string): string {
   return raw.replace(/\/0+(\d+)(_hires)?\.png$/, (_m, n, hi) => `/${n}${hi ?? ""}.png`);
+}
+
+function artCandidates(card: TcgCard, large = false): string[] {
+  const urls: string[] = [];
+  const primary = large ? card.imageLarge : card.imageSmall;
+  const secondary = large ? card.imageSmall : card.imageLarge;
+  if (primary) urls.push(normalizeArtUrl(primary));
+  if (secondary) urls.push(normalizeArtUrl(secondary));
+
+  const setId = card.setId || card.apiId?.split("-")[0];
+  const bare = card.number.replace(/^0+/, "") || card.number;
+  if (setId) {
+    urls.push(
+      large
+        ? `https://images.pokemontcg.io/${setId}/${bare}_hires.png`
+        : `https://images.pokemontcg.io/${setId}/${bare}.png`,
+    );
+  }
+
+  return [...new Set(urls.filter(Boolean))];
 }
 
 export function CardArt({
@@ -23,10 +40,10 @@ export function CardArt({
   className?: string;
   large?: boolean;
 }) {
-  const [failed, setFailed] = useState(false);
-  const src = artUrl(card, large);
+  const candidates = useMemo(() => artCandidates(card, large), [card, large]);
+  const [idx, setIdx] = useState(0);
 
-  if (!src || failed) {
+  if (idx >= candidates.length) {
     return (
       <div
         className={cn(
@@ -48,11 +65,11 @@ export function CardArt({
   return (
     // eslint-disable-next-line @next/next/no-img-element
     <img
-      src={src}
+      src={candidates[idx]}
       alt={card.name}
       className={cn("card-art", className)}
       loading="lazy"
-      onError={() => setFailed(true)}
+      onError={() => setIdx((i) => i + 1)}
     />
   );
 }
@@ -74,8 +91,8 @@ export function CardTile({
         className,
       )}
     >
-      <div className="relative bg-[#0c1018] p-2 pb-0">
-        <CardArt card={card} />
+      <div className="relative aspect-[63/88] bg-[#0c1018] p-2">
+        <CardArt card={card} className="h-full w-full object-contain" />
         <span className="mark-badge absolute right-3 top-3 shadow-lg">
           {card.regulationMark || "—"}
         </span>

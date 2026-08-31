@@ -1,0 +1,3674 @@
+[
+  {
+    "id": "ssp-196",
+    "name": "Ultra Ball",
+    "setCode": "SSP",
+    "setName": "Surging Sparks",
+    "number": "196",
+    "regulationMark": "H",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "rules": [
+      "Discard 2 cards, then search your deck for a Pokémon and put it into your hand."
+    ],
+    "rarity": "Uncommon",
+    "imageSmall": "https://images.pokemontcg.io/sv8/196.png",
+    "imageLarge": "https://images.pokemontcg.io/sv8/196_hires.png",
+    "ptcgoCode": "SSP",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "search",
+      "engine"
+    ],
+    "whenGood": "Core consistency for every Evolution deck.",
+    "whenBrick": "Costs two discards — painful when hand is thin.",
+    "scripted": true,
+    "setId": "sv8"
+  },
+  {
+    "id": "pfl-068",
+    "name": "Nest Ball",
+    "setCode": "PFL",
+    "setName": "Phantasmal Flames",
+    "number": "068",
+    "regulationMark": "J",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "rules": [
+      "Search your deck for a Basic Pokémon and put it onto your Bench."
+    ],
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/me2/68.png",
+    "imageLarge": "https://images.pokemontcg.io/me2/68_hires.png",
+    "ptcgoCode": "PFL",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "search",
+      "starter"
+    ],
+    "whenGood": "Sets up Bench early without discarding.",
+    "whenBrick": "Bricks mid/late when Bench is full or Basics are gone.",
+    "scripted": true,
+    "setId": "me2"
+  },
+  {
+    "id": "twm-144",
+    "name": "Buddy-Buddy Poffin",
+    "setCode": "TWM",
+    "setName": "Twilight Masquerade",
+    "number": "144",
+    "regulationMark": "H",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "rules": [
+      "Search your deck for up to 2 Basic Pokémon with 70 HP or less and put them onto your Bench."
+    ],
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/sv6/144.png",
+    "imageLarge": "https://images.pokemontcg.io/sv6/144_hires.png",
+    "ptcgoCode": "TWM",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "search",
+      "starter",
+      "engine"
+    ],
+    "whenGood": "Best early Bench loader for 70 HP Basics.",
+    "whenBrick": "Dead if no low-HP Basics left or Bench is full.",
+    "scripted": true,
+    "setId": "sv6"
+  },
+  {
+    "id": "ssp-191",
+    "name": "Rare Candy",
+    "setCode": "SSP",
+    "setName": "Surging Sparks",
+    "number": "191",
+    "regulationMark": "H",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "rules": [
+      "Evolve a Basic into a Stage 2, skipping Stage 1 (ignoring evolution timing)."
+    ],
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/sv8/191.png",
+    "imageLarge": "https://images.pokemontcg.io/sv8/191_hires.png",
+    "ptcgoCode": "SSP",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "engine",
+      "search"
+    ],
+    "whenGood": "Turns on Stage 2 attackers one turn earlier.",
+    "whenBrick": "Dead without matching Basic + Stage 2 in hand.",
+    "scripted": true,
+    "setId": "sv8"
+  },
+  {
+    "id": "pre-132",
+    "name": "Boss's Orders",
+    "setCode": "PRE",
+    "setName": "Prismatic Evolutions",
+    "number": "132",
+    "regulationMark": "H",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "rules": [
+      "Switch in 1 of your opponent's Benched Pokémon to the Active Spot."
+    ],
+    "rarity": "Rare",
+    "imageSmall": "https://images.pokemontcg.io/sv8pt5/132.png",
+    "imageLarge": "https://images.pokemontcg.io/sv8pt5/132_hires.png",
+    "ptcgoCode": "PRE",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "gust",
+      "disruption"
+    ],
+    "whenGood": "Prize mapping and KO sequencing.",
+    "whenBrick": "Wasted without a KO follow-up or when Bench is empty.",
+    "scripted": true,
+    "setId": "sv8pt5"
+  },
+  {
+    "id": "scr-160",
+    "name": "Counter Catcher",
+    "setCode": "SCR",
+    "setName": "Stellar Crown",
+    "number": "160",
+    "regulationMark": "H",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "rules": [
+      "If you have more Prize cards remaining than your opponent, switch in 1 of their Benched Pokémon."
+    ],
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/sv7/160.png",
+    "imageLarge": "https://images.pokemontcg.io/sv7/160_hires.png",
+    "ptcgoCode": "SCR",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "gust",
+      "tech"
+    ],
+    "whenGood": "Comeback gust when behind on prizes.",
+    "whenBrick": "Illegal / blank when ahead or tied on prizes.",
+    "scripted": true,
+    "setId": "sv7"
+  },
+  {
+    "id": "ssp-185",
+    "name": "Iono",
+    "setCode": "SSP",
+    "setName": "Surging Sparks",
+    "number": "185",
+    "regulationMark": "H",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "rules": [
+      "Each player shuffles their hand into their deck and draws cards equal to prizes remaining."
+    ],
+    "rarity": "Uncommon",
+    "imageSmall": "https://images.pokemontcg.io/sv8/185.png",
+    "imageLarge": "https://images.pokemontcg.io/sv8/185_hires.png",
+    "ptcgoCode": "SSP",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "draw",
+      "disruption"
+    ],
+    "whenGood": "Refills your hand and wrecks theirs mid-game.",
+    "whenBrick": "Can refill an opponent who was bricked.",
+    "scripted": true,
+    "setId": "sv8"
+  },
+  {
+    "id": "pre-133",
+    "name": "Professor's Research",
+    "setCode": "PRE",
+    "setName": "Prismatic Evolutions",
+    "number": "133",
+    "regulationMark": "H",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "rules": [
+      "Discard your hand, then draw 7 cards."
+    ],
+    "rarity": "Uncommon",
+    "imageSmall": "https://images.pokemontcg.io/sv8pt5/133.png",
+    "imageLarge": "https://images.pokemontcg.io/sv8pt5/133_hires.png",
+    "ptcgoCode": "PRE",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "draw",
+      "engine"
+    ],
+    "whenGood": "Raw redraw when the hand is disposable.",
+    "whenBrick": "Discards key pieces you still needed.",
+    "scripted": true,
+    "setId": "sv8pt5"
+  },
+  {
+    "id": "ssp-169",
+    "name": "Arven",
+    "setCode": "SSP",
+    "setName": "Surging Sparks",
+    "number": "169",
+    "regulationMark": "H",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "rules": [
+      "Search your deck for an Item and a Pokémon Tool and put them into your hand."
+    ],
+    "rarity": "Uncommon",
+    "imageSmall": "https://images.pokemontcg.io/sv8/169.png",
+    "imageLarge": "https://images.pokemontcg.io/sv8/169_hires.png",
+    "ptcgoCode": "SSP",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "search",
+      "engine"
+    ],
+    "whenGood": "Fetches ACE SPEC / Tool + consistency Item in one supporter.",
+    "whenBrick": "Soft if you need draw more than tutor.",
+    "scripted": true,
+    "setId": "sv8"
+  },
+  {
+    "id": "scr-133",
+    "name": "Crispin",
+    "setCode": "SCR",
+    "setName": "Stellar Crown",
+    "number": "133",
+    "regulationMark": "H",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "rules": [
+      "Search your deck for a Basic Energy and a Basic Energy of a different type; attach one and put the other into your hand."
+    ],
+    "rarity": "Uncommon",
+    "imageSmall": "https://images.pokemontcg.io/sv7/133.png",
+    "imageLarge": "https://images.pokemontcg.io/sv7/133_hires.png",
+    "ptcgoCode": "SCR",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "engine",
+      "search"
+    ],
+    "whenGood": "Dual-type ramp for Dragapult / multi-energy attackers.",
+    "whenBrick": "Blank if you only run one Energy type.",
+    "scripted": true,
+    "setId": "sv7"
+  },
+  {
+    "id": "sfa-061",
+    "name": "Night Stretcher",
+    "setCode": "SFA",
+    "setName": "Shrouded Fable",
+    "number": "061",
+    "regulationMark": "H",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "rules": [
+      "Put a Pokémon or Basic Energy from your discard pile into your hand."
+    ],
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/sv6pt5/61.png",
+    "imageLarge": "https://images.pokemontcg.io/sv6pt5/61_hires.png",
+    "ptcgoCode": "SFA",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "search",
+      "engine"
+    ],
+    "whenGood": "Recovers discarded attackers and Energy.",
+    "whenBrick": "Dead if discard is empty of targets.",
+    "scripted": true,
+    "setId": "sv6pt5"
+  },
+  {
+    "id": "tef-163",
+    "name": "Earthen Vessel",
+    "setCode": "TEF",
+    "setName": "Temporal Forces",
+    "number": "163",
+    "regulationMark": "H",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "rules": [
+      "Discard a card from your hand. Search your deck for up to 2 Basic Energy and put them into your hand."
+    ],
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/sv5/163.png",
+    "imageLarge": "https://images.pokemontcg.io/sv5/163_hires.png",
+    "ptcgoCode": "TEF",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "search",
+      "engine"
+    ],
+    "whenGood": "Fast Energy tutor after a discard.",
+    "whenBrick": "Needs a discardable card in hand.",
+    "scripted": true,
+    "setId": "sv5"
+  },
+  {
+    "id": "pre-138",
+    "name": "Super Rod",
+    "setCode": "PRE",
+    "setName": "Prismatic Evolutions",
+    "number": "138",
+    "regulationMark": "H",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "rules": [
+      "Shuffle up to 3 in any combination of Pokémon and Basic Energy from your discard pile into your deck."
+    ],
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/sv8pt5/138.png",
+    "imageLarge": "https://images.pokemontcg.io/sv8pt5/138_hires.png",
+    "ptcgoCode": "PRE",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "engine",
+      "heal"
+    ],
+    "whenGood": "Recycles prized/discarded resources for long games.",
+    "whenBrick": "Slow when you need immediate hand cards.",
+    "scripted": true,
+    "setId": "sv8pt5"
+  },
+  {
+    "id": "ssp-194",
+    "name": "Switch",
+    "setCode": "SSP",
+    "setName": "Surging Sparks",
+    "number": "194",
+    "regulationMark": "H",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "rules": [
+      "Switch your Active Pokémon with 1 of your Benched Pokémon."
+    ],
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/sv8/194.png",
+    "imageLarge": "https://images.pokemontcg.io/sv8/194_hires.png",
+    "ptcgoCode": "SSP",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "tech"
+    ],
+    "whenGood": "Retreat without paying Energy; pivots into attackers.",
+    "whenBrick": "Dead with empty Bench.",
+    "scripted": true,
+    "setId": "sv8"
+  },
+  {
+    "id": "ssp-186",
+    "name": "Pokégear 3.0",
+    "setCode": "SSP",
+    "setName": "Surging Sparks",
+    "number": "186",
+    "regulationMark": "H",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "rules": [
+      "Look at the top 7 cards of your deck; you may take a Supporter into your hand."
+    ],
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/sv8/186.png",
+    "imageLarge": "https://images.pokemontcg.io/sv8/186_hires.png",
+    "ptcgoCode": "SSP",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "search",
+      "engine"
+    ],
+    "whenGood": "Finds Boss/Iono/Research on curve.",
+    "whenBrick": "Misses if Supporters are deep or already in hand.",
+    "scripted": true,
+    "setId": "sv8"
+  },
+  {
+    "id": "ssp-187",
+    "name": "Poké Ball",
+    "setCode": "SSP",
+    "setName": "Surging Sparks",
+    "number": "187",
+    "regulationMark": "H",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "rules": [
+      "Flip a coin. If heads, search your deck for a Pokémon and put it into your hand."
+    ],
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/sv8/187.png",
+    "imageLarge": "https://images.pokemontcg.io/sv8/187_hires.png",
+    "ptcgoCode": "SSP",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "search"
+    ],
+    "whenGood": "Budget Pokémon search when Ultra Ball density is low.",
+    "whenBrick": "50% miss rate — unreliable.",
+    "scripted": true,
+    "setId": "sv8"
+  },
+  {
+    "id": "ssp-172",
+    "name": "Energy Switch",
+    "setCode": "SSP",
+    "setName": "Surging Sparks",
+    "number": "172",
+    "regulationMark": "H",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "rules": [
+      "Move a Basic Energy from 1 of your Pokémon to another of your Pokémon."
+    ],
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/sv8/172.png",
+    "imageLarge": "https://images.pokemontcg.io/sv8/172_hires.png",
+    "ptcgoCode": "SSP",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "engine",
+      "tech"
+    ],
+    "whenGood": "Repositions Energy after KOs or onto a fresh attacker.",
+    "whenBrick": "Dead without Energy on board.",
+    "scripted": true,
+    "setId": "sv8"
+  },
+  {
+    "id": "ssp-170",
+    "name": "Crushing Hammer",
+    "setCode": "SSP",
+    "setName": "Surging Sparks",
+    "number": "170",
+    "regulationMark": "H",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "rules": [
+      "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon."
+    ],
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/sv8/170.png",
+    "imageLarge": "https://images.pokemontcg.io/sv8/170_hires.png",
+    "ptcgoCode": "SSP",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "disruption",
+      "tech"
+    ],
+    "whenGood": "Slows single-Energy attackers and Tools-on-Energy lines.",
+    "whenBrick": "Coin-flip Item — often a brick.",
+    "scripted": true,
+    "setId": "sv8"
+  },
+  {
+    "id": "sfa-062",
+    "name": "Unfair Stamp",
+    "setCode": "SFA",
+    "setName": "Shrouded Fable",
+    "number": "062",
+    "regulationMark": "H",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item",
+      "ACE SPEC"
+    ],
+    "rules": [
+      "You can't have more than 1 ACE SPEC card in your deck.",
+      "Your opponent shuffles their hand into their deck and draws 2 cards. During your opponent's next turn, they can't play Item cards."
+    ],
+    "rarity": "ACE SPEC Rare",
+    "imageSmall": "https://images.pokemontcg.io/sv6pt5/62.png",
+    "imageLarge": "https://images.pokemontcg.io/sv6pt5/62_hires.png",
+    "ptcgoCode": "SFA",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "ace-spec",
+      "disruption"
+    ],
+    "whenGood": "Locks Item-heavy decks after a decisive KO turn.",
+    "whenBrick": "Soft vs decks that do not lean on Items.",
+    "scripted": true,
+    "setId": "sv6pt5"
+  },
+  {
+    "id": "twm-163",
+    "name": "Secret Box",
+    "setCode": "TWM",
+    "setName": "Twilight Masquerade",
+    "number": "163",
+    "regulationMark": "H",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item",
+      "ACE SPEC"
+    ],
+    "rules": [
+      "You can't have more than 1 ACE SPEC card in your deck.",
+      "Discard 3 cards. Search your deck for an Item, a Supporter, a Stadium, and a Tool; put them into your hand."
+    ],
+    "rarity": "ACE SPEC Rare",
+    "imageSmall": "https://images.pokemontcg.io/sv6/163.png",
+    "imageLarge": "https://images.pokemontcg.io/sv6/163_hires.png",
+    "ptcgoCode": "TWM",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "ace-spec",
+      "search",
+      "engine"
+    ],
+    "whenGood": "One-card toolbox grab for combo turns.",
+    "whenBrick": "Costs 3 discards — catastrophic on thin hands.",
+    "scripted": true,
+    "setId": "sv6"
+  },
+  {
+    "id": "sfa-038",
+    "name": "Fezandipiti ex",
+    "setCode": "SFA",
+    "setName": "Shrouded Fable",
+    "number": "038",
+    "regulationMark": "H",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "ex"
+    ],
+    "hp": 210,
+    "types": [
+      "Psychic"
+    ],
+    "attacks": [
+      {
+        "name": "Cruel Arrow",
+        "cost": [
+          "Psychic",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "100",
+        "text": "This attack does 100 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+        "prizes": 2
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Adrena-Brain",
+        "type": "Ability",
+        "text": "Once during your turn, if this Pokémon has any damage counters on it, you may draw cards until you have 3 cards in your hand."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ],
+    "retreat": 1,
+    "rules": [
+      "Pokémon ex rule: When this Pokémon is Knocked Out, your opponent takes 2 Prize cards."
+    ],
+    "rarity": "Double Rare",
+    "imageSmall": "https://images.pokemontcg.io/sv6pt5/38.png",
+    "imageLarge": "https://images.pokemontcg.io/sv6pt5/38_hires.png",
+    "ptcgoCode": "SFA",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "draw",
+      "engine",
+      "attacker"
+    ],
+    "whenGood": "Format draw engine once damaged; snipes Bench.",
+    "whenBrick": "Needs damage on itself and Psychic Energy for attack.",
+    "scripted": true,
+    "setId": "sv6pt5"
+  },
+  {
+    "id": "sfa-072",
+    "name": "Munkidori",
+    "setCode": "SFA",
+    "setName": "Shrouded Fable",
+    "number": "072",
+    "regulationMark": "H",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 110,
+    "types": [
+      "Psychic"
+    ],
+    "attacks": [
+      {
+        "name": "Mind Bend",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "damage": "60",
+        "text": "Your opponent's Active Pokémon is now Confused."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Adrena-Brain",
+        "type": "Ability",
+        "text": "Once during your turn, if this Pokémon has any damage counters on it, you may move up to 3 damage counters from 1 of your Pokémon to 1 of your opponent's Pokémon."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreat": 1,
+    "rarity": "Uncommon",
+    "imageSmall": "https://images.pokemontcg.io/sv6pt5/72.png",
+    "imageLarge": "https://images.pokemontcg.io/sv6pt5/72_hires.png",
+    "ptcgoCode": "SFA",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "tech",
+      "engine"
+    ],
+    "whenGood": "Moves chip damage onto KO ranges for Dragapult lines.",
+    "whenBrick": "Needs damage on itself and setup space.",
+    "scripted": true,
+    "setId": "sv6pt5"
+  },
+  {
+    "id": "twm-128",
+    "name": "Dreepy",
+    "setCode": "TWM",
+    "setName": "Twilight Masquerade",
+    "number": "128",
+    "regulationMark": "H",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 70,
+    "types": [
+      "Psychic"
+    ],
+    "attacks": [
+      {
+        "name": "Bite",
+        "cost": [
+          "Psychic"
+        ],
+        "damage": "10"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreat": 1,
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/sv6/128.png",
+    "imageLarge": "https://images.pokemontcg.io/sv6/128_hires.png",
+    "ptcgoCode": "TWM",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "starter"
+    ],
+    "whenGood": "Poffin target into Dragapult.",
+    "whenBrick": "Dead late without Rare Candy / Stage pieces.",
+    "setId": "sv6"
+  },
+  {
+    "id": "twm-129",
+    "name": "Drakloak",
+    "setCode": "TWM",
+    "setName": "Twilight Masquerade",
+    "number": "129",
+    "regulationMark": "H",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": 90,
+    "types": [
+      "Psychic"
+    ],
+    "evolvesFrom": "Dreepy",
+    "attacks": [
+      {
+        "name": "Spooky Shot",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "damage": "40"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Recon Directive",
+        "type": "Ability",
+        "text": "Once during your turn, you may look at the top 2 cards of your deck and put 1 into your hand. Put the other on the bottom of your deck."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreat": 1,
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/sv6/129.png",
+    "imageLarge": "https://images.pokemontcg.io/sv6/129_hires.png",
+    "ptcgoCode": "TWM",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "engine"
+    ],
+    "whenGood": "Filter draw while climbing into Dragapult.",
+    "whenBrick": "Often skipped with Rare Candy.",
+    "setId": "sv6"
+  },
+  {
+    "id": "twm-130",
+    "name": "Dragapult ex",
+    "setCode": "TWM",
+    "setName": "Twilight Masquerade",
+    "number": "130",
+    "regulationMark": "H",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2",
+      "ex"
+    ],
+    "hp": 320,
+    "types": [
+      "Psychic"
+    ],
+    "evolvesFrom": "Drakloak",
+    "attacks": [
+      {
+        "name": "Jet Headbutt",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "70"
+      },
+      {
+        "name": "Phantom Dive",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "damage": "200",
+        "text": "Put 6 damage counters on your opponent's Active Pokémon. Then put damage counters equal to the remaining damage of this attack on your opponent's Benched Pokémon in any way you like. (Apply Weakness and Resistance for Active; Bench placement ignores W/R.)",
+        "prizes": 2
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreat": 1,
+    "rules": [
+      "Pokémon ex rule: When this Pokémon is Knocked Out, your opponent takes 2 Prize cards.",
+      "Variants: straight Psychic build; Dusknoir ability partners; Blaziken ex Fire splash."
+    ],
+    "rarity": "Double Rare",
+    "imageSmall": "https://images.pokemontcg.io/sv6/130.png",
+    "imageLarge": "https://images.pokemontcg.io/sv6/130_hires.png",
+    "ptcgoCode": "TWM",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "attacker",
+      "engine"
+    ],
+    "whenGood": "Spread-then-snipe with Boss/Counter Catcher closes games.",
+    "whenBrick": "Loses to faster single-prize pressure and rough Psychic techs.",
+    "setId": "sv6"
+  },
+  {
+    "id": "twm-018",
+    "name": "Dipplin",
+    "setCode": "TWM",
+    "setName": "Twilight Masquerade",
+    "number": "018",
+    "regulationMark": "H",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": 80,
+    "types": [
+      "Grass"
+    ],
+    "evolvesFrom": "Applin",
+    "attacks": [
+      {
+        "name": "Do the Wave",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "damage": "20+",
+        "text": "This attack does 20 more damage for each of your Benched Pokémon."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Festival Lead",
+        "type": "Ability",
+        "text": "Attacks used by your Pokémon that have the Festival Lead Ability cost Colorless less for each Festival Grounds in play (including opponent's)."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "retreat": 2,
+    "rarity": "Uncommon",
+    "imageSmall": "https://images.pokemontcg.io/sv6/18.png",
+    "imageLarge": "https://images.pokemontcg.io/sv6/18_hires.png",
+    "ptcgoCode": "TWM",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "engine",
+      "attacker"
+    ],
+    "whenGood": "Enables Festival Grounds loop with Thwackey/Seaking.",
+    "whenBrick": "Needs Stadium lock and Applin setup.",
+    "setId": "sv6"
+  },
+  {
+    "id": "twm-017",
+    "name": "Applin",
+    "setCode": "TWM",
+    "setName": "Twilight Masquerade",
+    "number": "017",
+    "regulationMark": "H",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 40,
+    "types": [
+      "Grass"
+    ],
+    "attacks": [
+      {
+        "name": "Rollout",
+        "cost": [
+          "Grass"
+        ],
+        "damage": "10"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "retreat": 1,
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/sv6/17.png",
+    "imageLarge": "https://images.pokemontcg.io/sv6/17_hires.png",
+    "ptcgoCode": "TWM",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "starter"
+    ],
+    "whenGood": "Into Dipplin for Festival Lead.",
+    "whenBrick": "Tiny HP — easy KO before evolution.",
+    "setId": "sv6"
+  },
+  {
+    "id": "twm-015",
+    "name": "Thwackey",
+    "setCode": "TWM",
+    "setName": "Twilight Masquerade",
+    "number": "015",
+    "regulationMark": "H",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": 100,
+    "types": [
+      "Grass"
+    ],
+    "evolvesFrom": "Grookey",
+    "attacks": [
+      {
+        "name": "Drum Beating",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "damage": "50",
+        "text": "During your opponent's next turn, the Defending Pokémon can't retreat."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Festival Lead",
+        "type": "Ability",
+        "text": "Attacks used by your Pokémon that have the Festival Lead Ability cost Colorless less for each Festival Grounds in play."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "retreat": 2,
+    "rarity": "Uncommon",
+    "imageSmall": "https://images.pokemontcg.io/sv6/15.png",
+    "imageLarge": "https://images.pokemontcg.io/sv6/15_hires.png",
+    "ptcgoCode": "TWM",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "engine",
+      "attacker"
+    ],
+    "whenGood": "Second Festival Lead body for Stadium loop.",
+    "whenBrick": "Needs Grookey and Stadium.",
+    "setId": "sv6"
+  },
+  {
+    "id": "twm-014",
+    "name": "Grookey",
+    "setCode": "TWM",
+    "setName": "Twilight Masquerade",
+    "number": "014",
+    "regulationMark": "H",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 70,
+    "types": [
+      "Grass"
+    ],
+    "attacks": [
+      {
+        "name": "Scratch",
+        "cost": [
+          "Grass"
+        ],
+        "damage": "10"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "retreat": 1,
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/sv6/14.png",
+    "imageLarge": "https://images.pokemontcg.io/sv6/14_hires.png",
+    "ptcgoCode": "TWM",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "starter"
+    ],
+    "whenGood": "Poffinable into Thwackey.",
+    "whenBrick": "Without evolution it's a weak Basic.",
+    "setId": "sv6"
+  },
+  {
+    "id": "scr-028",
+    "name": "Seaking",
+    "setCode": "SCR",
+    "setName": "Stellar Crown",
+    "number": "028",
+    "regulationMark": "H",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": 110,
+    "types": [
+      "Water"
+    ],
+    "evolvesFrom": "Goldeen",
+    "attacks": [
+      {
+        "name": "Festival Style",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "30+",
+        "text": "If Festival Grounds is in play, this attack does 90 more damage and heal 30 damage from this Pokémon."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Festival Lead",
+        "type": "Ability",
+        "text": "Attacks used by your Pokémon that have the Festival Lead Ability cost Colorless less for each Festival Grounds in play."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "retreat": 1,
+    "rarity": "Uncommon",
+    "imageSmall": "https://images.pokemontcg.io/sv7/28.png",
+    "imageLarge": "https://images.pokemontcg.io/sv7/28_hires.png",
+    "ptcgoCode": "SCR",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "attacker",
+      "engine"
+    ],
+    "whenGood": "Stadium-on payoff attacker for Festival Lead.",
+    "whenBrick": "Blank without Festival Grounds.",
+    "setId": "sv7"
+  },
+  {
+    "id": "scr-027",
+    "name": "Goldeen",
+    "setCode": "SCR",
+    "setName": "Stellar Crown",
+    "number": "027",
+    "regulationMark": "H",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 70,
+    "types": [
+      "Water"
+    ],
+    "attacks": [
+      {
+        "name": "Flip Turn",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "10",
+        "text": "You may switch this Pokémon with 1 of your Benched Pokémon."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "retreat": 1,
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/sv7/27.png",
+    "imageLarge": "https://images.pokemontcg.io/sv7/27_hires.png",
+    "ptcgoCode": "SCR",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "starter"
+    ],
+    "whenGood": "Into Seaking for Festival.",
+    "whenBrick": "Low impact alone.",
+    "setId": "sv7"
+  },
+  {
+    "id": "tef-149",
+    "name": "Festival Grounds",
+    "setCode": "TEF",
+    "setName": "Temporal Forces",
+    "number": "149",
+    "regulationMark": "H",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Stadium"
+    ],
+    "rules": [
+      "Each Pokémon that has the Festival Lead Ability (both yours and your opponent's) has no Retreat Cost and takes 30 less damage from attacks from the opponent's Pokémon."
+    ],
+    "rarity": "Uncommon",
+    "imageSmall": "https://images.pokemontcg.io/sv5/149.png",
+    "imageLarge": "https://images.pokemontcg.io/sv5/149_hires.png",
+    "ptcgoCode": "TEF",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "engine"
+    ],
+    "whenGood": "Turns on Festival Lead cost reduction and bulk.",
+    "whenBrick": "Shared — opponent Festival pieces also benefit.",
+    "setId": "sv5"
+  },
+  {
+    "id": "twm-152",
+    "name": "Lacey",
+    "setCode": "TWM",
+    "setName": "Twilight Masquerade",
+    "number": "152",
+    "regulationMark": "H",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "rules": [
+      "Shuffle your hand into your deck. Draw 4 cards. If your opponent has 3 or fewer Prize cards remaining, draw 8 cards instead."
+    ],
+    "rarity": "Uncommon",
+    "imageSmall": "https://images.pokemontcg.io/sv6/152.png",
+    "imageLarge": "https://images.pokemontcg.io/sv6/152_hires.png",
+    "ptcgoCode": "TWM",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "draw"
+    ],
+    "whenGood": "Late-game Festival / combo redraw.",
+    "whenBrick": "Weak early when prizes are high.",
+    "setId": "sv6"
+  },
+  {
+    "id": "sfa-019",
+    "name": "Duskull",
+    "setCode": "SFA",
+    "setName": "Shrouded Fable",
+    "number": "019",
+    "regulationMark": "H",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 60,
+    "types": [
+      "Psychic"
+    ],
+    "attacks": [
+      {
+        "name": "Will-O-Wisp",
+        "cost": [
+          "Psychic"
+        ],
+        "damage": "20"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreat": 1,
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/sv6pt5/19.png",
+    "imageLarge": "https://images.pokemontcg.io/sv6pt5/19_hires.png",
+    "ptcgoCode": "SFA",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "starter"
+    ],
+    "whenGood": "Into Dusknoir for Cursed Blast KO help.",
+    "whenBrick": "Dead draw without Stage 2 package.",
+    "setId": "sv6pt5"
+  },
+  {
+    "id": "sfa-020",
+    "name": "Dusclops",
+    "setCode": "SFA",
+    "setName": "Shrouded Fable",
+    "number": "020",
+    "regulationMark": "H",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": 90,
+    "types": [
+      "Psychic"
+    ],
+    "evolvesFrom": "Duskull",
+    "attacks": [
+      {
+        "name": "Psychic Sphere",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "damage": "50"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreat": 2,
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/sv6pt5/20.png",
+    "imageLarge": "https://images.pokemontcg.io/sv6pt5/20_hires.png",
+    "ptcgoCode": "SFA",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "engine"
+    ],
+    "whenGood": "Bridge into Dusknoir.",
+    "whenBrick": "Often Candied past.",
+    "setId": "sv6pt5"
+  },
+  {
+    "id": "sfa-021",
+    "name": "Dusknoir",
+    "setCode": "SFA",
+    "setName": "Shrouded Fable",
+    "number": "021",
+    "regulationMark": "H",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": 160,
+    "types": [
+      "Psychic"
+    ],
+    "evolvesFrom": "Dusclops",
+    "attacks": [
+      {
+        "name": "Shadow Bind",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Colorless"
+        ],
+        "damage": "150",
+        "text": "During your opponent's next turn, the Defending Pokémon can't retreat."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Cursed Blast",
+        "type": "Ability",
+        "text": "Once during your turn, you may put 13 damage counters on 1 of your opponent's Pokémon. If you use this Ability, this Pokémon is Knocked Out."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreat": 3,
+    "rarity": "Rare",
+    "imageSmall": "https://images.pokemontcg.io/sv6pt5/21.png",
+    "imageLarge": "https://images.pokemontcg.io/sv6pt5/21_hires.png",
+    "ptcgoCode": "SFA",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "tech",
+      "attacker"
+    ],
+    "whenGood": "Sacrificial KO enabler with Dragapult spread.",
+    "whenBrick": "Self-KO costs a prize — timing matters.",
+    "setId": "sv6pt5"
+  },
+  {
+    "id": "jtg-024",
+    "name": "Torchic",
+    "setCode": "JTG",
+    "setName": "Journey Together",
+    "number": "024",
+    "regulationMark": "I",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 70,
+    "types": [
+      "Fire"
+    ],
+    "attacks": [
+      {
+        "name": "Ember",
+        "cost": [
+          "Fire"
+        ],
+        "damage": "20"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ],
+    "retreat": 1,
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/sv9/24.png",
+    "imageLarge": "https://images.pokemontcg.io/sv9/24_hires.png",
+    "ptcgoCode": "JTG",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "starter"
+    ],
+    "whenGood": "Into Blaziken ex Fire partner package.",
+    "whenBrick": "Off-type in pure Psychic Dragapult.",
+    "setId": "sv9"
+  },
+  {
+    "id": "jtg-025",
+    "name": "Combusken",
+    "setCode": "JTG",
+    "setName": "Journey Together",
+    "number": "025",
+    "regulationMark": "I",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": 90,
+    "types": [
+      "Fire"
+    ],
+    "evolvesFrom": "Torchic",
+    "attacks": [
+      {
+        "name": "Double Kick",
+        "cost": [
+          "Fire",
+          "Colorless"
+        ],
+        "damage": "40"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ],
+    "retreat": 1,
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/sv9/25.png",
+    "imageLarge": "https://images.pokemontcg.io/sv9/25_hires.png",
+    "ptcgoCode": "JTG",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "engine"
+    ],
+    "whenGood": "Bridge to Blaziken ex.",
+    "whenBrick": "Skipped with Rare Candy.",
+    "setId": "sv9"
+  },
+  {
+    "id": "jtg-026",
+    "name": "Blaziken ex",
+    "setCode": "JTG",
+    "setName": "Journey Together",
+    "number": "026",
+    "regulationMark": "I",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2",
+      "ex"
+    ],
+    "hp": 320,
+    "types": [
+      "Fire"
+    ],
+    "evolvesFrom": "Combusken",
+    "attacks": [
+      {
+        "name": "Flame Storm",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Colorless"
+        ],
+        "damage": "200",
+        "text": "Discard a Fire Energy from this Pokémon. Heal 30 damage from each of your Benched Pokémon.",
+        "prizes": 2
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Scorching Feather",
+        "type": "Ability",
+        "text": "Once during your turn, you may discard a Fire Energy from this Pokémon. If you do, put 6 damage counters on 1 of your opponent's Benched Pokémon."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ],
+    "retreat": 2,
+    "rules": [
+      "Pokémon ex rule: When this Pokémon is Knocked Out, your opponent takes 2 Prize cards."
+    ],
+    "rarity": "Double Rare",
+    "imageSmall": "https://images.pokemontcg.io/sv9/26.png",
+    "imageLarge": "https://images.pokemontcg.io/sv9/26_hires.png",
+    "ptcgoCode": "JTG",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "attacker",
+      "tech"
+    ],
+    "whenGood": "Bench pressure partner for Dragapult variants.",
+    "whenBrick": "Needs Fire Energy and Candy; prized Torchic hurts.",
+    "setId": "sv9"
+  },
+  {
+    "id": "meg-048",
+    "name": "Drilbur",
+    "setCode": "MEG",
+    "setName": "Mega Evolution",
+    "number": "048",
+    "regulationMark": "J",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 70,
+    "types": [
+      "Fighting"
+    ],
+    "attacks": [
+      {
+        "name": "Mud-Slap",
+        "cost": [
+          "Fighting"
+        ],
+        "damage": "20"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "retreat": 2,
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/me1/48.png",
+    "imageLarge": "https://images.pokemontcg.io/me1/48_hires.png",
+    "ptcgoCode": "MEG",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "starter"
+    ],
+    "whenGood": "Into Mega Excadrill ex.",
+    "whenBrick": "High retreat for a Basic.",
+    "setId": "me1"
+  },
+  {
+    "id": "meg-049",
+    "name": "Excadrill",
+    "setCode": "MEG",
+    "setName": "Mega Evolution",
+    "number": "049",
+    "regulationMark": "J",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": 120,
+    "types": [
+      "Fighting"
+    ],
+    "evolvesFrom": "Drilbur",
+    "attacks": [
+      {
+        "name": "Drill Run",
+        "cost": [
+          "Fighting",
+          "Colorless"
+        ],
+        "damage": "80"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "retreat": 2,
+    "rarity": "Uncommon",
+    "imageSmall": "https://images.pokemontcg.io/me1/49.png",
+    "imageLarge": "https://images.pokemontcg.io/me1/49_hires.png",
+    "ptcgoCode": "MEG",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "attacker"
+    ],
+    "whenGood": "Bridge / backup before Mega Evolution.",
+    "whenBrick": "Outclassed once Mega Excadrill is online.",
+    "setId": "me1"
+  },
+  {
+    "id": "meg-050",
+    "name": "Mega Excadrill ex",
+    "setCode": "MEG",
+    "setName": "Mega Evolution",
+    "number": "050",
+    "regulationMark": "J",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1",
+      "ex",
+      "Mega"
+    ],
+    "hp": 340,
+    "types": [
+      "Fighting"
+    ],
+    "evolvesFrom": "Excadrill",
+    "attacks": [
+      {
+        "name": "Earthquake Drill",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Colorless"
+        ],
+        "damage": "280",
+        "text": "This attack also does 20 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+        "prizes": 2
+      },
+      {
+        "name": "Iron Tunneler",
+        "cost": [
+          "Fighting",
+          "Colorless"
+        ],
+        "damage": "120",
+        "text": "Discard an Energy from your opponent's Active Pokémon.",
+        "prizes": 2
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "retreat": 3,
+    "rules": [
+      "Pokémon ex rule: When this Pokémon is Knocked Out, your opponent takes 2 Prize cards.",
+      "Mega Evolution rule: When you play this Pokémon from your hand to evolve Excadrill, you may attach up to 3 Basic Fighting Energy from your discard pile to this Pokémon."
+    ],
+    "rarity": "Double Rare",
+    "imageSmall": "https://images.pokemontcg.io/me1/50.png",
+    "imageLarge": "https://images.pokemontcg.io/me1/50_hires.png",
+    "ptcgoCode": "MEG",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "attacker"
+    ],
+    "whenGood": "High HP tank that closes 2-prizes cleanly.",
+    "whenBrick": "Self-Bench damage and Grass Weakness.",
+    "setId": "me1"
+  },
+  {
+    "id": "dri-098",
+    "name": "N's Zorua",
+    "setCode": "DRI",
+    "setName": "Destined Rivals",
+    "number": "098",
+    "regulationMark": "I",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 70,
+    "types": [
+      "Darkness"
+    ],
+    "attacks": [
+      {
+        "name": "Stampede",
+        "cost": [
+          "Darkness"
+        ],
+        "damage": "20"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "retreat": 1,
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/sv10/98.png",
+    "imageLarge": "https://images.pokemontcg.io/sv10/98_hires.png",
+    "ptcgoCode": "DRI",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "starter"
+    ],
+    "whenGood": "N's lineage into Zoroark ex.",
+    "whenBrick": "Needs N's Zoroark specifically.",
+    "setId": "sv10"
+  },
+  {
+    "id": "dri-099",
+    "name": "N's Zoroark ex",
+    "setCode": "DRI",
+    "setName": "Destined Rivals",
+    "number": "099",
+    "regulationMark": "I",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1",
+      "ex"
+    ],
+    "hp": 280,
+    "types": [
+      "Darkness"
+    ],
+    "evolvesFrom": "N's Zorua",
+    "attacks": [
+      {
+        "name": "Night Torment",
+        "cost": [
+          "Darkness",
+          "Darkness",
+          "Colorless"
+        ],
+        "damage": "160",
+        "text": "Your opponent reveals their hand. Discard a card you find there.",
+        "prizes": 2
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Trade",
+        "type": "Ability",
+        "text": "You must discard a card from your hand in order to use this Ability. Once during your turn, you may draw 2 cards."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "retreat": 2,
+    "rules": [
+      "Pokémon ex rule: When this Pokémon is Knocked Out, your opponent takes 2 Prize cards."
+    ],
+    "rarity": "Double Rare",
+    "imageSmall": "https://images.pokemontcg.io/sv10/99.png",
+    "imageLarge": "https://images.pokemontcg.io/sv10/99_hires.png",
+    "ptcgoCode": "DRI",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "attacker",
+      "draw",
+      "engine",
+      "disruption"
+    ],
+    "whenGood": "Trade engine plus hand disruption closer.",
+    "whenBrick": "Trade discards precious pieces; Grass Weakness.",
+    "setId": "sv10"
+  },
+  {
+    "id": "dri-158",
+    "name": "N's Plan",
+    "setCode": "DRI",
+    "setName": "Destined Rivals",
+    "number": "158",
+    "regulationMark": "I",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "rules": [
+      "Look at the top 3 cards of your deck. Put them into your hand or shuffle them into your deck, then draw 3 cards."
+    ],
+    "rarity": "Uncommon",
+    "imageSmall": "https://images.pokemontcg.io/sv10/158.png",
+    "imageLarge": "https://images.pokemontcg.io/sv10/158_hires.png",
+    "ptcgoCode": "DRI",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "draw",
+      "engine"
+    ],
+    "whenGood": "Synergizes with N's Pokémon disruption plans.",
+    "whenBrick": "Competes with Iono/Research for supporter slot.",
+    "setId": "sv10"
+  },
+  {
+    "id": "pfl-033",
+    "name": "Cleffa",
+    "setCode": "PFL",
+    "setName": "Phantasmal Flames",
+    "number": "033",
+    "regulationMark": "J",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 30,
+    "types": [
+      "Psychic"
+    ],
+    "attacks": [
+      {
+        "name": "Twinkle Draw",
+        "cost": [],
+        "text": "Draw until you have 4 cards in your hand."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ],
+    "retreat": 0,
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/me2/33.png",
+    "imageLarge": "https://images.pokemontcg.io/me2/33_hires.png",
+    "ptcgoCode": "PFL",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "draw",
+      "starter"
+    ],
+    "whenGood": "Free retreat draw Baby for box shells.",
+    "whenBrick": "30 HP — dies to any chip.",
+    "setId": "me2"
+  },
+  {
+    "id": "pfl-034",
+    "name": "Clefairy",
+    "setCode": "PFL",
+    "setName": "Phantasmal Flames",
+    "number": "034",
+    "regulationMark": "J",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 70,
+    "types": [
+      "Psychic"
+    ],
+    "attacks": [
+      {
+        "name": "Metronome",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "text": "Choose 1 of your opponent's Active Pokémon's attacks and use it as this attack."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Moonlight Box",
+        "type": "Ability",
+        "text": "Once during your turn, you may search your deck for a Basic Pokémon that isn't a Baby Pokémon and put it onto your Bench. Then, shuffle your deck."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ],
+    "retreat": 1,
+    "rarity": "Uncommon",
+    "imageSmall": "https://images.pokemontcg.io/me2/34.png",
+    "imageLarge": "https://images.pokemontcg.io/me2/34_hires.png",
+    "ptcgoCode": "PFL",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "engine",
+      "starter",
+      "tech"
+    ],
+    "whenGood": "Box enabler that tutors diverse Basics.",
+    "whenBrick": "Metronome needs a useful opposing attack.",
+    "setId": "me2"
+  },
+  {
+    "id": "pfl-035",
+    "name": "Clefable ex",
+    "setCode": "PFL",
+    "setName": "Phantasmal Flames",
+    "number": "035",
+    "regulationMark": "J",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1",
+      "ex"
+    ],
+    "hp": 260,
+    "types": [
+      "Psychic"
+    ],
+    "evolvesFrom": "Clefairy",
+    "attacks": [
+      {
+        "name": "Moon Impact",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "damage": "120",
+        "prizes": 2
+      },
+      {
+        "name": "Sparkle Box",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Colorless"
+        ],
+        "damage": "180",
+        "text": "You may put an Energy attached to this Pokémon into your hand. If you do, search your deck for a Stadium and put it into play.",
+        "prizes": 2
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ],
+    "retreat": 2,
+    "rules": [
+      "Pokémon ex rule: When this Pokémon is Knocked Out, your opponent takes 2 Prize cards."
+    ],
+    "rarity": "Double Rare",
+    "imageSmall": "https://images.pokemontcg.io/me2/35.png",
+    "imageLarge": "https://images.pokemontcg.io/me2/35_hires.png",
+    "ptcgoCode": "PFL",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "attacker",
+      "engine"
+    ],
+    "whenGood": "Flexible closer for Clefairy box shells.",
+    "whenBrick": "Metal Weakness and Stage 1 tempo.",
+    "setId": "me2"
+  },
+  {
+    "id": "meg-061",
+    "name": "Gastly",
+    "setCode": "MEG",
+    "setName": "Mega Evolution",
+    "number": "061",
+    "regulationMark": "J",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 50,
+    "types": [
+      "Psychic"
+    ],
+    "attacks": [
+      {
+        "name": "Astonish",
+        "cost": [
+          "Psychic"
+        ],
+        "damage": "10"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreat": 1,
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/me1/61.png",
+    "imageLarge": "https://images.pokemontcg.io/me1/61_hires.png",
+    "ptcgoCode": "MEG",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "starter"
+    ],
+    "whenGood": "Into Mega Gengar ex.",
+    "whenBrick": "Fragile Basic.",
+    "setId": "me1"
+  },
+  {
+    "id": "meg-062",
+    "name": "Haunter",
+    "setCode": "MEG",
+    "setName": "Mega Evolution",
+    "number": "062",
+    "regulationMark": "J",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": 80,
+    "types": [
+      "Psychic"
+    ],
+    "evolvesFrom": "Gastly",
+    "attacks": [
+      {
+        "name": "Poison Gas",
+        "cost": [
+          "Psychic"
+        ],
+        "damage": "30",
+        "text": "Your opponent's Active Pokémon is now Poisoned."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreat": 1,
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/me1/62.png",
+    "imageLarge": "https://images.pokemontcg.io/me1/62_hires.png",
+    "ptcgoCode": "MEG",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "engine"
+    ],
+    "whenGood": "Bridge to Mega Gengar.",
+    "whenBrick": "Often Candied past.",
+    "setId": "me1"
+  },
+  {
+    "id": "meg-063",
+    "name": "Mega Gengar ex",
+    "setCode": "MEG",
+    "setName": "Mega Evolution",
+    "number": "063",
+    "regulationMark": "J",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2",
+      "ex",
+      "Mega"
+    ],
+    "hp": 350,
+    "types": [
+      "Psychic"
+    ],
+    "evolvesFrom": "Haunter",
+    "attacks": [
+      {
+        "name": "Nightmare Pressure",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Colorless"
+        ],
+        "damage": "220",
+        "text": "Your opponent's Active Pokémon is now Asleep. Put 3 damage counters on 1 of your opponent's Benched Pokémon.",
+        "prizes": 2
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Shadow Gate",
+        "type": "Ability",
+        "text": "Once during your turn, if this Pokémon is in the Active Spot, you may switch it with 1 of your Benched Pokémon. If you do, put 3 damage counters on your opponent's Active Pokémon."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreat": 2,
+    "rules": [
+      "Pokémon ex rule: When this Pokémon is Knocked Out, your opponent takes 2 Prize cards.",
+      "Mega Evolution rule: When you play this Pokémon from your hand to evolve Haunter, you may draw until you have 6 cards in your hand."
+    ],
+    "rarity": "Double Rare",
+    "imageSmall": "https://images.pokemontcg.io/me1/63.png",
+    "imageLarge": "https://images.pokemontcg.io/me1/63_hires.png",
+    "ptcgoCode": "MEG",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "attacker",
+      "disruption"
+    ],
+    "whenGood": "Pivot pressure plus sleep disruption.",
+    "whenBrick": "Stage 2 Mega ramp; Darkness Weakness.",
+    "setId": "me1"
+  },
+  {
+    "id": "meg-012",
+    "name": "Charmander",
+    "setCode": "MEG",
+    "setName": "Mega Evolution",
+    "number": "012",
+    "regulationMark": "J",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 70,
+    "types": [
+      "Fire"
+    ],
+    "attacks": [
+      {
+        "name": "Ember",
+        "cost": [
+          "Fire"
+        ],
+        "damage": "30",
+        "text": "Discard a Fire Energy from this Pokémon."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ],
+    "retreat": 1,
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/me1/12.png",
+    "imageLarge": "https://images.pokemontcg.io/me1/12_hires.png",
+    "ptcgoCode": "MEG",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "starter"
+    ],
+    "whenGood": "Into Mega Charizard Y ex stub line.",
+    "whenBrick": "Self-discard on attack.",
+    "setId": "me1"
+  },
+  {
+    "id": "meg-013",
+    "name": "Charmeleon",
+    "setCode": "MEG",
+    "setName": "Mega Evolution",
+    "number": "013",
+    "regulationMark": "J",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": 100,
+    "types": [
+      "Fire"
+    ],
+    "evolvesFrom": "Charmander",
+    "attacks": [
+      {
+        "name": "Fire Fang",
+        "cost": [
+          "Fire",
+          "Colorless"
+        ],
+        "damage": "70"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ],
+    "retreat": 2,
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/me1/13.png",
+    "imageLarge": "https://images.pokemontcg.io/me1/13_hires.png",
+    "ptcgoCode": "MEG",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "engine"
+    ],
+    "whenGood": "Bridge to Mega Charizard Y.",
+    "whenBrick": "Candied past in dedicated builds.",
+    "setId": "me1"
+  },
+  {
+    "id": "asc-019",
+    "name": "Mega Charizard Y ex",
+    "setCode": "ASC",
+    "setName": "Ascended Heroes",
+    "number": "019",
+    "regulationMark": "J",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2",
+      "ex",
+      "Mega"
+    ],
+    "hp": 360,
+    "types": [
+      "Fire"
+    ],
+    "evolvesFrom": "Charmeleon",
+    "attacks": [
+      {
+        "name": "Inferno Wing",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Colorless"
+        ],
+        "damage": "250",
+        "text": "Discard 2 Fire Energy from this Pokémon. This attack does 50 damage to 1 of your opponent's Benched Pokémon.",
+        "prizes": 2
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ],
+    "retreat": 2,
+    "rules": [
+      "Pokémon ex rule: When this Pokémon is Knocked Out, your opponent takes 2 Prize cards.",
+      "Stub: Ascended Heroes Mega Charizard Y for meta coverage."
+    ],
+    "rarity": "Double Rare",
+    "imageSmall": "https://images.pokemontcg.io/me3/19.png",
+    "imageLarge": "https://images.pokemontcg.io/me3/19_hires.png",
+    "ptcgoCode": "ASC",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "attacker"
+    ],
+    "whenGood": "High ceiling Fire Mega attacker.",
+    "whenBrick": "Energy hungry; Water Weakness.",
+    "setId": "me3"
+  },
+  {
+    "id": "tef-060",
+    "name": "Iron Hands ex",
+    "setCode": "TEF",
+    "setName": "Temporal Forces",
+    "number": "060",
+    "regulationMark": "H",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "ex"
+    ],
+    "hp": 230,
+    "types": [
+      "Lightning"
+    ],
+    "attacks": [
+      {
+        "name": "Arm Press",
+        "cost": [
+          "Lightning",
+          "Lightning",
+          "Colorless"
+        ],
+        "damage": "160",
+        "prizes": 2
+      },
+      {
+        "name": "Amp You Very Much",
+        "cost": [
+          "Lightning",
+          "Lightning",
+          "Lightning",
+          "Colorless"
+        ],
+        "damage": "120",
+        "text": "If your opponent's Pokémon is Knocked Out by damage from this attack, take 1 more Prize card.",
+        "prizes": 2
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "retreat": 4,
+    "rules": [
+      "Pokémon ex rule: When this Pokémon is Knocked Out, your opponent takes 2 Prize cards."
+    ],
+    "rarity": "Double Rare",
+    "imageSmall": "https://images.pokemontcg.io/sv5/60.png",
+    "imageLarge": "https://images.pokemontcg.io/sv5/60_hires.png",
+    "ptcgoCode": "TEF",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "attacker"
+    ],
+    "whenGood": "Prize-positive closer vs single-prize lines.",
+    "whenBrick": "High retreat; Fighting Weakness.",
+    "setId": "sv5"
+  },
+  {
+    "id": "tef-145",
+    "name": "Heavy Baton",
+    "setCode": "TEF",
+    "setName": "Temporal Forces",
+    "number": "145",
+    "regulationMark": "H",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Pokémon Tool"
+    ],
+    "rules": [
+      "If the Pokémon this card is attached to has a Retreat Cost of 3 or more and is Knocked Out, move all Energy to 1 Benched Pokémon."
+    ],
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/sv5/145.png",
+    "imageLarge": "https://images.pokemontcg.io/sv5/145_hires.png",
+    "ptcgoCode": "TEF",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "tech"
+    ],
+    "whenGood": "Energy transfer on KO for tanky Basics.",
+    "whenBrick": "Blank on low-retreat attackers.",
+    "setId": "sv5"
+  },
+  {
+    "id": "scr-087",
+    "name": "Terapagos ex",
+    "setCode": "SCR",
+    "setName": "Stellar Crown",
+    "number": "087",
+    "regulationMark": "H",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "ex",
+      "Tera"
+    ],
+    "hp": 230,
+    "types": [
+      "Colorless"
+    ],
+    "attacks": [
+      {
+        "name": "Unified Beatdown",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "30×",
+        "text": "This attack does 30 damage for each of your Benched Pokémon that has an Ability.",
+        "prizes": 2
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "retreat": 3,
+    "rules": [
+      "Tera rule / Pokémon ex rule apply."
+    ],
+    "rarity": "Double Rare",
+    "imageSmall": "https://images.pokemontcg.io/sv7/87.png",
+    "imageLarge": "https://images.pokemontcg.io/sv7/87_hires.png",
+    "ptcgoCode": "SCR",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "attacker"
+    ],
+    "whenGood": "Ability-heavy Bench payoff.",
+    "whenBrick": "Needs populated Ability Bench.",
+    "setId": "sv7"
+  },
+  {
+    "id": "ssp-057",
+    "name": "Pikachu ex",
+    "setCode": "SSP",
+    "setName": "Surging Sparks",
+    "number": "057",
+    "regulationMark": "H",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "ex"
+    ],
+    "hp": 200,
+    "types": [
+      "Lightning"
+    ],
+    "attacks": [
+      {
+        "name": "Friends 'Til the End",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "30×",
+        "text": "This attack does 30 damage for each of your Benched Pokémon.",
+        "prizes": 2
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "retreat": 1,
+    "rules": [
+      "Pokémon ex rule: When this Pokémon is Knocked Out, your opponent takes 2 Prize cards."
+    ],
+    "rarity": "Double Rare",
+    "imageSmall": "https://images.pokemontcg.io/sv8/57.png",
+    "imageLarge": "https://images.pokemontcg.io/sv8/57_hires.png",
+    "ptcgoCode": "SSP",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "attacker"
+    ],
+    "whenGood": "Bench-count aggro.",
+    "whenBrick": "Falls off vs gust and spread.",
+    "setId": "sv8"
+  },
+  {
+    "id": "pre-025",
+    "name": "Eevee",
+    "setCode": "PRE",
+    "setName": "Prismatic Evolutions",
+    "number": "025",
+    "regulationMark": "H",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 70,
+    "types": [
+      "Colorless"
+    ],
+    "attacks": [
+      {
+        "name": "Tackle",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "20"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "retreat": 1,
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/sv8pt5/25.png",
+    "imageLarge": "https://images.pokemontcg.io/sv8pt5/25_hires.png",
+    "ptcgoCode": "PRE",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "starter"
+    ],
+    "whenGood": "Flexible evolution bridge in Prismatic shells.",
+    "whenBrick": "Without Eeveelutions it's filler.",
+    "setId": "sv8pt5"
+  },
+  {
+    "id": "pre-034",
+    "name": "Sylveon ex",
+    "setCode": "PRE",
+    "setName": "Prismatic Evolutions",
+    "number": "034",
+    "regulationMark": "H",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1",
+      "ex"
+    ],
+    "hp": 270,
+    "types": [
+      "Psychic"
+    ],
+    "evolvesFrom": "Eevee",
+    "attacks": [
+      {
+        "name": "Magical Shot",
+        "cost": [
+          "Psychic",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "160",
+        "prizes": 2
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Sympatha-Appeal",
+        "type": "Ability",
+        "text": "Once during your turn, you may attach a Basic Psychic Energy from your hand to 1 of your Benched Pokémon."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ],
+    "retreat": 1,
+    "rules": [
+      "Pokémon ex rule: When this Pokémon is Knocked Out, your opponent takes 2 Prize cards."
+    ],
+    "rarity": "Double Rare",
+    "imageSmall": "https://images.pokemontcg.io/sv8pt5/34.png",
+    "imageLarge": "https://images.pokemontcg.io/sv8pt5/34_hires.png",
+    "ptcgoCode": "PRE",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "engine",
+      "attacker"
+    ],
+    "whenGood": "Psychic attach support for Dragapult-adjacent shells.",
+    "whenBrick": "Competes for Bench and Energy.",
+    "setId": "sv8pt5"
+  },
+  {
+    "id": "jtg-112",
+    "name": "Lillie's Clefairy ex",
+    "setCode": "JTG",
+    "setName": "Journey Together",
+    "number": "112",
+    "regulationMark": "I",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "ex"
+    ],
+    "hp": 190,
+    "types": [
+      "Psychic"
+    ],
+    "attacks": [
+      {
+        "name": "Fairy Zone",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "damage": "50+",
+        "text": "If your opponent's Active Pokémon is a Dragon Pokémon, this attack does 50 more damage.",
+        "prizes": 2
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ],
+    "retreat": 1,
+    "rules": [
+      "Pokémon ex rule: When this Pokémon is Knocked Out, your opponent takes 2 Prize cards."
+    ],
+    "rarity": "Double Rare",
+    "imageSmall": "https://images.pokemontcg.io/sv9/112.png",
+    "imageLarge": "https://images.pokemontcg.io/sv9/112_hires.png",
+    "ptcgoCode": "JTG",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "attacker",
+      "tech"
+    ],
+    "whenGood": "Dragon check and Lillie synergy.",
+    "whenBrick": "Narrow outside Dragon matchups.",
+    "setId": "sv9"
+  },
+  {
+    "id": "jtg-145",
+    "name": "Lillie",
+    "setCode": "JTG",
+    "setName": "Journey Together",
+    "number": "145",
+    "regulationMark": "I",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "rules": [
+      "Draw cards until you have 6 cards in your hand."
+    ],
+    "rarity": "Uncommon",
+    "imageSmall": "https://images.pokemontcg.io/sv9/145.png",
+    "imageLarge": "https://images.pokemontcg.io/sv9/145_hires.png",
+    "ptcgoCode": "JTG",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "draw"
+    ],
+    "whenGood": "Gentle early redraw.",
+    "whenBrick": "Weak when already at 6+ cards.",
+    "setId": "sv9"
+  },
+  {
+    "id": "dri-045",
+    "name": "Team Rocket's Mewtwo ex",
+    "setCode": "DRI",
+    "setName": "Destined Rivals",
+    "number": "045",
+    "regulationMark": "I",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "ex"
+    ],
+    "hp": 240,
+    "types": [
+      "Psychic"
+    ],
+    "attacks": [
+      {
+        "name": "Power Report",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "damage": "30×",
+        "text": "This attack does 30 damage for each card in your opponent's hand.",
+        "prizes": 2
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreat": 2,
+    "rules": [
+      "Pokémon ex rule: When this Pokémon is Knocked Out, your opponent takes 2 Prize cards."
+    ],
+    "rarity": "Double Rare",
+    "imageSmall": "https://images.pokemontcg.io/sv10/45.png",
+    "imageLarge": "https://images.pokemontcg.io/sv10/45_hires.png",
+    "ptcgoCode": "DRI",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "attacker",
+      "disruption"
+    ],
+    "whenGood": "Punishes fat hands after Iono fails.",
+    "whenBrick": "Soft vs thin hands.",
+    "setId": "sv10"
+  },
+  {
+    "id": "blk-077",
+    "name": "Zekrom ex",
+    "setCode": "BLK",
+    "setName": "Black Bolt",
+    "number": "077",
+    "regulationMark": "J",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "ex"
+    ],
+    "hp": 230,
+    "types": [
+      "Lightning"
+    ],
+    "attacks": [
+      {
+        "name": "Bolt Strike",
+        "cost": [
+          "Lightning",
+          "Lightning",
+          "Colorless"
+        ],
+        "damage": "200",
+        "text": "This Pokémon also does 30 damage to itself.",
+        "prizes": 2
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "retreat": 2,
+    "rules": [
+      "Pokémon ex rule: When this Pokémon is Knocked Out, your opponent takes 2 Prize cards."
+    ],
+    "rarity": "Double Rare",
+    "imageSmall": "https://images.pokemontcg.io/blk/77.png",
+    "imageLarge": "https://images.pokemontcg.io/blk/77_hires.png",
+    "ptcgoCode": "BLK",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "attacker"
+    ],
+    "whenGood": "Straightforward Lightning beatstick.",
+    "whenBrick": "Recoil plus Fighting Weakness.",
+    "setId": "blk"
+  },
+  {
+    "id": "blk-120",
+    "name": "Black Bolt Badge",
+    "setCode": "BLK",
+    "setName": "Black Bolt",
+    "number": "120",
+    "regulationMark": "J",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "rules": [
+      "Search your deck for a Lightning Energy and attach it to 1 of your Lightning Pokémon."
+    ],
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/blk/120.png",
+    "imageLarge": "https://images.pokemontcg.io/blk/120_hires.png",
+    "ptcgoCode": "BLK",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "engine",
+      "search"
+    ],
+    "whenGood": "Accelerates Zekrom lines.",
+    "whenBrick": "Dead off Lightning.",
+    "setId": "blk"
+  },
+  {
+    "id": "wht-078",
+    "name": "Reshiram ex",
+    "setCode": "WHT",
+    "setName": "White Flare",
+    "number": "078",
+    "regulationMark": "J",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "ex"
+    ],
+    "hp": 230,
+    "types": [
+      "Fire"
+    ],
+    "attacks": [
+      {
+        "name": "Blue Flare",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Colorless"
+        ],
+        "damage": "210",
+        "text": "Discard 2 Fire Energy from this Pokémon.",
+        "prizes": 2
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ],
+    "retreat": 2,
+    "rules": [
+      "Pokémon ex rule: When this Pokémon is Knocked Out, your opponent takes 2 Prize cards."
+    ],
+    "rarity": "Double Rare",
+    "imageSmall": "https://images.pokemontcg.io/wht/78.png",
+    "imageLarge": "https://images.pokemontcg.io/wht/78_hires.png",
+    "ptcgoCode": "WHT",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "attacker"
+    ],
+    "whenGood": "High damage Fire Basic.",
+    "whenBrick": "Energy discard tax; Water Weakness.",
+    "setId": "wht"
+  },
+  {
+    "id": "wht-121",
+    "name": "White Flare Badge",
+    "setCode": "WHT",
+    "setName": "White Flare",
+    "number": "121",
+    "regulationMark": "J",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "rules": [
+      "Search your deck for a Fire Energy and attach it to 1 of your Fire Pokémon."
+    ],
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/wht/121.png",
+    "imageLarge": "https://images.pokemontcg.io/wht/121_hires.png",
+    "ptcgoCode": "WHT",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "engine",
+      "search"
+    ],
+    "whenGood": "Fuels Reshiram / Charizard lines.",
+    "whenBrick": "Dead off Fire.",
+    "setId": "wht"
+  },
+  {
+    "id": "pfl-090",
+    "name": "Phantom Arena",
+    "setCode": "PFL",
+    "setName": "Phantasmal Flames",
+    "number": "090",
+    "regulationMark": "J",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Stadium"
+    ],
+    "rules": [
+      "Whenever a Pokémon with a Mega Evolution rule is Knocked Out, its owner draws 2 cards."
+    ],
+    "rarity": "Uncommon",
+    "imageSmall": "https://images.pokemontcg.io/me2/90.png",
+    "imageLarge": "https://images.pokemontcg.io/me2/90_hires.png",
+    "ptcgoCode": "PFL",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "engine",
+      "tech"
+    ],
+    "whenGood": "Softens Mega KO losses.",
+    "whenBrick": "Helps both players.",
+    "setId": "me2"
+  },
+  {
+    "id": "asc-055",
+    "name": "Hero's Bond",
+    "setCode": "ASC",
+    "setName": "Ascended Heroes",
+    "number": "055",
+    "regulationMark": "J",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "rules": [
+      "Search your deck for a Mega Evolution Pokémon and put it into your hand."
+    ],
+    "rarity": "Uncommon",
+    "imageSmall": "https://images.pokemontcg.io/me3/55.png",
+    "imageLarge": "https://images.pokemontcg.io/me3/55_hires.png",
+    "ptcgoCode": "ASC",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "search"
+    ],
+    "whenGood": "Tutors Mega Charizard / Mega Gengar pieces.",
+    "whenBrick": "Dead without Mega Stage in deck.",
+    "setId": "me3"
+  },
+  {
+    "id": "por-088",
+    "name": "Order Tablet",
+    "setCode": "POR",
+    "setName": "Perfect Order",
+    "number": "088",
+    "regulationMark": "J",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "rules": [
+      "Look at the top 5 cards of your deck. You may reveal a Stadium or ACE SPEC you find there and put it into your hand. Put the other cards back in any order."
+    ],
+    "rarity": "Uncommon",
+    "imageSmall": "https://images.pokemontcg.io/me4/88.png",
+    "imageLarge": "https://images.pokemontcg.io/me4/88_hires.png",
+    "ptcgoCode": "POR",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "search",
+      "engine"
+    ],
+    "whenGood": "Finds Stadium/ACE SPEC without discarding.",
+    "whenBrick": "Misses if those cards are deep.",
+    "setId": "me4"
+  },
+  {
+    "id": "por-041",
+    "name": "Perfect Order Rotom",
+    "setCode": "POR",
+    "setName": "Perfect Order",
+    "number": "041",
+    "regulationMark": "J",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 80,
+    "types": [
+      "Lightning"
+    ],
+    "attacks": [
+      {
+        "name": "Static Shock",
+        "cost": [
+          "Lightning"
+        ],
+        "damage": "30"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Catalog Scan",
+        "type": "Ability",
+        "text": "Once during your turn, you may look at the top card of your deck. If it is an Item card, you may put it into your hand."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "retreat": 1,
+    "rarity": "Uncommon",
+    "imageSmall": "https://images.pokemontcg.io/me4/41.png",
+    "imageLarge": "https://images.pokemontcg.io/me4/41_hires.png",
+    "ptcgoCode": "POR",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "engine",
+      "tech"
+    ],
+    "whenGood": "Item filter for toolbox decks.",
+    "whenBrick": "Low HP Basic.",
+    "setId": "me4"
+  },
+  {
+    "id": "svp-148",
+    "name": "Pecharunt ex",
+    "setCode": "SVP",
+    "setName": "SV Black Star Promos",
+    "number": "148",
+    "regulationMark": "H",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "ex"
+    ],
+    "hp": 190,
+    "types": [
+      "Darkness"
+    ],
+    "attacks": [
+      {
+        "name": "Irritated Outburst",
+        "cost": [
+          "Darkness",
+          "Darkness"
+        ],
+        "damage": "60×",
+        "text": "This attack does 60 damage for each Prize card your opponent has taken.",
+        "prizes": 2
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Subjugating Chains",
+        "type": "Ability",
+        "text": "Once during your turn, you may switch in 1 of your Benched Darkness Pokémon to the Active Spot. If you do, this Pokémon is Poisoned."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "retreat": 1,
+    "rules": [
+      "Pokémon ex rule: When this Pokémon is Knocked Out, your opponent takes 2 Prize cards."
+    ],
+    "rarity": "Promo",
+    "imageSmall": "https://images.pokemontcg.io/svp/148.png",
+    "imageLarge": "https://images.pokemontcg.io/svp/148_hires.png",
+    "ptcgoCode": "SVP",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "engine",
+      "attacker"
+    ],
+    "whenGood": "Darkness pivot engine for Munkidori/N lines.",
+    "whenBrick": "Self-Poison and Fighting Weakness.",
+    "setId": "svp"
+  },
+  {
+    "id": "mep-001",
+    "name": "Mega Ring",
+    "setCode": "MEP",
+    "setName": "ME Black Star Promos",
+    "number": "001",
+    "regulationMark": "J",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Pokémon Tool"
+    ],
+    "rules": [
+      "The Mega Evolution Pokémon this card is attached to takes 30 less damage from attacks."
+    ],
+    "rarity": "Promo",
+    "imageSmall": "https://images.pokemontcg.io/mep/1.png",
+    "imageLarge": "https://images.pokemontcg.io/mep/1_hires.png",
+    "ptcgoCode": "MEP",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "tech",
+      "heal"
+    ],
+    "whenGood": "Bulk for Mega Excadrill / Mega Gengar.",
+    "whenBrick": "Blank on non-Mega attackers.",
+    "setId": "mep"
+  },
+  {
+    "id": "ssp-178",
+    "name": "Artazon",
+    "setCode": "SSP",
+    "setName": "Surging Sparks",
+    "number": "178",
+    "regulationMark": "H",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Stadium"
+    ],
+    "rules": [
+      "Once during each player's turn, that player may search their deck for a Basic Pokémon that doesn't have a Rule Box and put it onto their Bench."
+    ],
+    "rarity": "Uncommon",
+    "imageSmall": "https://images.pokemontcg.io/sv8/178.png",
+    "imageLarge": "https://images.pokemontcg.io/sv8/178_hires.png",
+    "ptcgoCode": "SSP",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "engine",
+      "search"
+    ],
+    "whenGood": "Shared Basic setup Stadium.",
+    "whenBrick": "Opponent also builds Bench.",
+    "setId": "sv8"
+  },
+  {
+    "id": "sfa-060",
+    "name": "PokéVital A",
+    "setCode": "SFA",
+    "setName": "Shrouded Fable",
+    "number": "060",
+    "regulationMark": "H",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "rules": [
+      "Heal 120 damage from 1 of your Pokémon. If you healed any damage this way, discard this Pokémon's attached Tool."
+    ],
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/sv6pt5/60.png",
+    "imageLarge": "https://images.pokemontcg.io/sv6pt5/60_hires.png",
+    "ptcgoCode": "SFA",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "heal",
+      "tech"
+    ],
+    "whenGood": "Big heal for damaged Fez / attackers.",
+    "whenBrick": "Forces Tool discard after heal.",
+    "setId": "sv6pt5"
+  },
+  {
+    "id": "scr-135",
+    "name": "Briar",
+    "setCode": "SCR",
+    "setName": "Stellar Crown",
+    "number": "135",
+    "regulationMark": "H",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "rules": [
+      "You can use this card only if your opponent has exactly 2 Prize cards remaining. During this turn, if your opponent's Pokémon is Knocked Out by damage from your Pokémon's attacks, take 1 more Prize card."
+    ],
+    "rarity": "Uncommon",
+    "imageSmall": "https://images.pokemontcg.io/sv7/135.png",
+    "imageLarge": "https://images.pokemontcg.io/sv7/135_hires.png",
+    "ptcgoCode": "SCR",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "tech"
+    ],
+    "whenGood": "Prize-positive endgame vs 2-prize board states.",
+    "whenBrick": "Timing-restricted supporter.",
+    "setId": "sv7"
+  },
+  {
+    "id": "tef-146",
+    "name": "Maximum Belt",
+    "setCode": "TEF",
+    "setName": "Temporal Forces",
+    "number": "146",
+    "regulationMark": "H",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Pokémon Tool"
+    ],
+    "rules": [
+      "Attacks used by the Pokémon this card is attached to do 50 more damage to your opponent's Active Pokémon ex."
+    ],
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/sv5/146.png",
+    "imageLarge": "https://images.pokemontcg.io/sv5/146_hires.png",
+    "ptcgoCode": "TEF",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "tech"
+    ],
+    "whenGood": "Pushes OHKOs on opposing ex.",
+    "whenBrick": "Dead vs non-ex Active.",
+    "setId": "sv5"
+  },
+  {
+    "id": "ssp-209",
+    "name": "Psychic Energy",
+    "setCode": "SSP",
+    "setName": "Surging Sparks",
+    "number": "209",
+    "regulationMark": "H",
+    "supertype": "Energy",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "rules": [
+      "Provides 1 Psychic Energy."
+    ],
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/sv8/209.png",
+    "imageLarge": "https://images.pokemontcg.io/sv8/209_hires.png",
+    "ptcgoCode": "SSP",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "engine"
+    ],
+    "whenGood": "Fuels attackers of this type.",
+    "whenBrick": "Dead if you are off-type or flooded.",
+    "scripted": true,
+    "setId": "sv8"
+  },
+  {
+    "id": "ssp-210",
+    "name": "Fire Energy",
+    "setCode": "SSP",
+    "setName": "Surging Sparks",
+    "number": "210",
+    "regulationMark": "H",
+    "supertype": "Energy",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Fire"
+    ],
+    "rules": [
+      "Provides 1 Fire Energy."
+    ],
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/sv8/210.png",
+    "imageLarge": "https://images.pokemontcg.io/sv8/210_hires.png",
+    "ptcgoCode": "SSP",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "engine"
+    ],
+    "whenGood": "Fuels attackers of this type.",
+    "whenBrick": "Dead if you are off-type or flooded.",
+    "scripted": true,
+    "setId": "sv8"
+  },
+  {
+    "id": "ssp-211",
+    "name": "Grass Energy",
+    "setCode": "SSP",
+    "setName": "Surging Sparks",
+    "number": "211",
+    "regulationMark": "H",
+    "supertype": "Energy",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Grass"
+    ],
+    "rules": [
+      "Provides 1 Grass Energy."
+    ],
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/sv8/211.png",
+    "imageLarge": "https://images.pokemontcg.io/sv8/211_hires.png",
+    "ptcgoCode": "SSP",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "engine"
+    ],
+    "whenGood": "Fuels attackers of this type.",
+    "whenBrick": "Dead if you are off-type or flooded.",
+    "scripted": true,
+    "setId": "sv8"
+  },
+  {
+    "id": "ssp-212",
+    "name": "Water Energy",
+    "setCode": "SSP",
+    "setName": "Surging Sparks",
+    "number": "212",
+    "regulationMark": "H",
+    "supertype": "Energy",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Water"
+    ],
+    "rules": [
+      "Provides 1 Water Energy."
+    ],
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/sv8/212.png",
+    "imageLarge": "https://images.pokemontcg.io/sv8/212_hires.png",
+    "ptcgoCode": "SSP",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "engine"
+    ],
+    "whenGood": "Fuels attackers of this type.",
+    "whenBrick": "Dead if you are off-type or flooded.",
+    "scripted": true,
+    "setId": "sv8"
+  },
+  {
+    "id": "ssp-213",
+    "name": "Lightning Energy",
+    "setCode": "SSP",
+    "setName": "Surging Sparks",
+    "number": "213",
+    "regulationMark": "H",
+    "supertype": "Energy",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "rules": [
+      "Provides 1 Lightning Energy."
+    ],
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/sv8/213.png",
+    "imageLarge": "https://images.pokemontcg.io/sv8/213_hires.png",
+    "ptcgoCode": "SSP",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "engine"
+    ],
+    "whenGood": "Fuels attackers of this type.",
+    "whenBrick": "Dead if you are off-type or flooded.",
+    "scripted": true,
+    "setId": "sv8"
+  },
+  {
+    "id": "ssp-214",
+    "name": "Fighting Energy",
+    "setCode": "SSP",
+    "setName": "Surging Sparks",
+    "number": "214",
+    "regulationMark": "H",
+    "supertype": "Energy",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Fighting"
+    ],
+    "rules": [
+      "Provides 1 Fighting Energy."
+    ],
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/sv8/214.png",
+    "imageLarge": "https://images.pokemontcg.io/sv8/214_hires.png",
+    "ptcgoCode": "SSP",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "engine"
+    ],
+    "whenGood": "Fuels attackers of this type.",
+    "whenBrick": "Dead if you are off-type or flooded.",
+    "scripted": true,
+    "setId": "sv8"
+  },
+  {
+    "id": "ssp-215",
+    "name": "Darkness Energy",
+    "setCode": "SSP",
+    "setName": "Surging Sparks",
+    "number": "215",
+    "regulationMark": "H",
+    "supertype": "Energy",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "rules": [
+      "Provides 1 Darkness Energy."
+    ],
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/sv8/215.png",
+    "imageLarge": "https://images.pokemontcg.io/sv8/215_hires.png",
+    "ptcgoCode": "SSP",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "engine"
+    ],
+    "whenGood": "Fuels attackers of this type.",
+    "whenBrick": "Dead if you are off-type or flooded.",
+    "scripted": true,
+    "setId": "sv8"
+  },
+  {
+    "id": "ssp-216",
+    "name": "Metal Energy",
+    "setCode": "SSP",
+    "setName": "Surging Sparks",
+    "number": "216",
+    "regulationMark": "H",
+    "supertype": "Energy",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Metal"
+    ],
+    "rules": [
+      "Provides 1 Metal Energy."
+    ],
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/sv8/216.png",
+    "imageLarge": "https://images.pokemontcg.io/sv8/216_hires.png",
+    "ptcgoCode": "SSP",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "engine"
+    ],
+    "whenGood": "Fuels attackers of this type.",
+    "whenBrick": "Dead if you are off-type or flooded.",
+    "scripted": true,
+    "setId": "sv8"
+  },
+  {
+    "id": "meg-100",
+    "name": "Psychic Energy",
+    "setCode": "MEG",
+    "setName": "Mega Evolution",
+    "number": "100",
+    "regulationMark": "J",
+    "supertype": "Energy",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "rules": [
+      "Provides 1 Psychic Energy."
+    ],
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/me1/100.png",
+    "imageLarge": "https://images.pokemontcg.io/me1/100_hires.png",
+    "ptcgoCode": "MEG",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "engine"
+    ],
+    "whenGood": "Fuels attackers of this type.",
+    "whenBrick": "Dead if you are off-type or flooded.",
+    "scripted": true,
+    "setId": "me1"
+  },
+  {
+    "id": "meg-101",
+    "name": "Fire Energy",
+    "setCode": "MEG",
+    "setName": "Mega Evolution",
+    "number": "101",
+    "regulationMark": "J",
+    "supertype": "Energy",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Fire"
+    ],
+    "rules": [
+      "Provides 1 Fire Energy."
+    ],
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/me1/101.png",
+    "imageLarge": "https://images.pokemontcg.io/me1/101_hires.png",
+    "ptcgoCode": "MEG",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "engine"
+    ],
+    "whenGood": "Fuels attackers of this type.",
+    "whenBrick": "Dead if you are off-type or flooded.",
+    "scripted": true,
+    "setId": "me1"
+  },
+  {
+    "id": "meg-102",
+    "name": "Fighting Energy",
+    "setCode": "MEG",
+    "setName": "Mega Evolution",
+    "number": "102",
+    "regulationMark": "J",
+    "supertype": "Energy",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Fighting"
+    ],
+    "rules": [
+      "Provides 1 Fighting Energy."
+    ],
+    "rarity": "Common",
+    "imageSmall": "https://images.pokemontcg.io/me1/102.png",
+    "imageLarge": "https://images.pokemontcg.io/me1/102_hires.png",
+    "ptcgoCode": "MEG",
+    "legalities": {
+      "standard": "Legal"
+    },
+    "roles": [
+      "engine"
+    ],
+    "whenGood": "Fuels attackers of this type.",
+    "whenBrick": "Dead if you are off-type or flooded.",
+    "scripted": true,
+    "setId": "me1"
+  }
+]

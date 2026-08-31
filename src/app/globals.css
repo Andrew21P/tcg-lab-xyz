@@ -141,7 +141,8 @@ body {
 .card-art {
   aspect-ratio: 63 / 88;
   width: 100%;
-  object-fit: cover;
+  height: 100%;
+  object-fit: contain;
   border-radius: 0.55rem;
   background: linear-gradient(160deg, #1a2433, #0c1018);
 }
