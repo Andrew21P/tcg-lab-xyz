@@ -1,0 +1,93 @@
+/**
+ * Sample PTCGL-style log — mirrors `data/replays/sample-dragapult.txt`.
+ * Inlined so client bundles do not need fs / raw-loader.
+ */
+export const SAMPLE_REPLAY_DRAGAPULT = `Setup
+Alex drew Dreepy.
+Blake drew Applin.
+Alex's turn
+Alex played Buddy-Buddy Poffin.
+Alex played Nest Ball.
+Alex attached a Psychic Energy to Dreepy.
+Alex played Ultra Ball.
+Alex played Rare Candy.
+Alex evolved Dreepy into Dragapult ex.
+Dragapult ex used Jet Headbutt.
+- 70 damage
+Blake's turn
+Blake played Buddy-Buddy Poffin.
+Blake played Festival Grounds.
+Blake attached a Grass Energy to Applin.
+Blake played Ultra Ball.
+Blake evolved Applin into Dipplin.
+Dipplin used Do the Wave.
+- 40 damage
+Alex's turn
+Alex played Iono.
+Alex attached a Psychic Energy to Dragapult ex.
+Alex played Boss's Orders.
+Dragapult ex used Phantom Dive.
+- 200 damage
+- 10 damage
+- 10 damage
+- 10 damage
+- 10 damage
+- 10 damage
+- 10 damage
+Alex took a Prize card.
+Alex took a Prize card.
+Blake's turn
+Blake played Thwackey.
+Thwackey used Boom Boom Groove.
+Blake attached a Water Energy to Goldeen.
+Blake played Lacey.
+Seaking used Festival Style.
+- 120 damage
+Alex's turn
+Alex played Counter Catcher.
+Alex attached a Psychic Energy to Dragapult ex.
+Alex played Night Stretcher.
+Dragapult ex used Phantom Dive.
+- 200 damage
+Alex took a Prize card.
+Alex took a Prize card.
+Blake's turn
+Blake played Professor's Research.
+Blake attached a Grass Energy to Dipplin.
+Blake played Crushing Hammer.
+Dipplin used Do the Wave.
+- 60 damage
+Alex's turn
+Alex played Crispin.
+Alex played Boss's Orders.
+Dragapult ex used Phantom Dive.
+- 200 damage
+Alex took a Prize card.
+Alex took a Prize card.
+Blake's turn
+Blake played Iono.
+Blake played Nest Ball.
+Blake attached a Water Energy to Seaking.
+Seaking used Festival Style.
+- 120 damage
+Alex's turn
+Alex played Ultra Ball.
+Alex attached a Psychic Energy to Fezandipiti ex.
+Fezandipiti ex used Adrena-Brain.
+Dragapult ex used Phantom Dive.
+- 200 damage
+Alex took a Prize card.
+Alex took a Prize card.
+`;
+
+export function loadSampleReplay(id: string = "dragapult"): string {
+  void id;
+  return SAMPLE_REPLAY_DRAGAPULT;
+}
+
+/** Aliases for UI / QA imports */
+export const getSampleReplay = loadSampleReplay;
+export const getSampleReplayText = loadSampleReplay;
+export const SAMPLE_REPLAY = SAMPLE_REPLAY_DRAGAPULT;
+
+export { SAMPLE_REPLAY_DRAGAPULT as sampleReplay };

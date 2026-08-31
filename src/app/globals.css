@@ -1,26 +1,159 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@custom-variant dark (&:is(.dark *));
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-ring: var(--ring);
+  --color-destructive: var(--destructive);
+  --font-sans: var(--font-sans);
+  --font-heading: var(--font-heading);
+  --font-mono: var(--font-mono);
+  --color-energy-grass: #78c850;
+  --color-energy-fire: #f08030;
+  --color-energy-water: #6890f0;
+  --color-energy-lightning: #f8d030;
+  --color-energy-psychic: #f85888;
+  --color-energy-fighting: #c03028;
+  --color-energy-darkness: #705848;
+  --color-energy-metal: #b8b8d0;
+  --color-energy-dragon: #7038f8;
+  --color-energy-fairy: #ee99ac;
+  --color-energy-colorless: #a8a878;
+  --color-lab-amber: #f0c14a;
+  --color-lab-cyan: #2ec4b6;
+  --color-lab-violet: #7c8cff;
+  --color-prize: #f0c14a;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  /* Cool ink lab — slate / steel, zero brown */
+  --background: #0a0e14;
+  --foreground: #e8eef8;
+  --card: #111820;
+  --card-foreground: #e8eef8;
+  --muted: #18202c;
+  --muted-foreground: #8b9bb4;
+  --border: #2a3548;
+  --primary: #2ec4b6;
+  --primary-foreground: #041210;
+  --accent: #7c8cff;
+  --accent-foreground: #0a0e14;
+  --ring: #2ec4b6;
+  --destructive: #f07178;
+  --radius: 0.75rem;
+}
+
+* {
+  border-color: var(--border);
+}
+
+html {
+  color-scheme: dark;
+  background: var(--background);
+}
+
+html,
+body {
+  min-height: 100%;
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
+  background-image:
+    radial-gradient(ellipse 110% 70% at 50% -15%, rgba(46, 196, 182, 0.11), transparent 55%),
+    radial-gradient(ellipse 60% 45% at 100% 20%, rgba(124, 140, 255, 0.08), transparent 50%),
+    radial-gradient(ellipse 50% 40% at 0% 85%, rgba(46, 196, 182, 0.05), transparent 45%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+.font-heading {
+  font-family: var(--font-heading), var(--font-sans), system-ui, sans-serif;
+}
+
+.lab-panel {
+  background: rgba(17, 24, 32, 0.94);
+  border: 1px solid rgba(42, 53, 72, 0.95);
+  border-radius: 1rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+}
+
+.lab-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border-radius: 0.4rem;
+  border: 1px solid rgba(42, 53, 72, 0.95);
+  background: rgba(24, 32, 44, 0.95);
+  padding: 0.2rem 0.55rem;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted-foreground);
+}
+
+.mark-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.35rem;
+  height: 1.35rem;
+  border-radius: 0.3rem;
+  font-size: 0.7rem;
+  font-weight: 800;
+  border: 1px solid rgba(240, 193, 74, 0.45);
+  color: #f0c14a;
+  background: rgba(240, 193, 74, 0.1);
+}
+
+.caveat-banner {
+  border: 1px solid rgba(240, 193, 74, 0.35);
+  background: rgba(240, 193, 74, 0.08);
+  color: #f5d78a;
+  border-radius: 0.75rem;
+  padding: 0.75rem 1rem;
+  font-size: 0.8rem;
+  line-height: 1.45;
+}
+
+.zone-slot {
+  min-height: 5.5rem;
+  border: 1px dashed rgba(42, 53, 72, 0.95);
+  border-radius: 0.75rem;
+  background: rgba(8, 11, 16, 0.55);
+}
+
+.card-art {
+  aspect-ratio: 63 / 88;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.55rem;
+  background: linear-gradient(160deg, #1a2433, #0c1018);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #3a4a62;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
 }

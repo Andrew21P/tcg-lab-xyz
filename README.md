@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TCG Lab XYZ
 
-## Getting Started
+**Champions Lab for Pokémon TCG** — a competitive lab, not another results dump.
 
-First, run the development server:
+Unofficial fan toolkit for Standard (2026–27, regulation marks **H / I / J+**). Import a list or a TCG Live battle log, put the board on the table, and measure whether the next card you cut actually wins more prizes.
+
+> Not affiliated with Nintendo, Creatures, GAME FREAK, The Pokémon Company, or TPCi. Not a TCG Live client, ranked ladder, private server, or Limitless replacement.
+
+## Features
+
+| Lab | What it does |
+| --- | --- |
+| **Card Lab** | Legal expansions + card pages with roles, when-good / when-brick, legality clock |
+| **List Lab** | Limitless / PTCGL import, consistency, prize-lock, one-card-swap EV |
+| **Board Lab** | Sandbox any position — self-play, legal lines, N seeded playouts |
+| **Matchup** | Top-8 archetype Monte Carlo (G1 / G2 / Bo3) with honesty caveat |
+| **Replay** | Paste Live log → scrub → **fork** into Board Lab |
+| **Prizes** | Prize / KO cartography (attachments until lethal) |
+| **Meta** | Rising cards, post-event techs, field EV — not a usage dump |
+| **School** | Interactive lessons on a real board |
+
+## Localhost
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) (or the next free port if 3000 is taken — check the terminal).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+If Champions Lab or another app already owns `:3000`, use:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run dev:alt   # http://localhost:3100
+```
 
-## Learn More
+No cloud, database, or Live account required. Lists and board forks use `localStorage`.
 
-To learn more about Next.js, take a look at the following resources:
+### Scripts
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run test            # full seeded QA suite
+npm run test:engine
+npm run test:lists
+npm run test:replay
+npm run test:analysis
+npm run sync:cards      # optional remote set metadata dump
+npm run sync:meta       # print vendored snapshot info
+npm run typecheck
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Engine honesty
 
-## Deploy on Vercel
+The CPU engine plays games with **scripted staples + top-8 archetype cards**. Unscripted cards are catalogued but labeled “script missing — not simulated.” Same seed → identical games. An LLM is never in the game loop.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Every win-rate report prints:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+> These numbers are engine + agent, not Worlds truth. Win rates track agent strength, not just card fidelity.
+
+## Stack
+
+Next.js 16 · React 19 · TypeScript · Tailwind CSS 4 · headless seeded rules engine (RyuuPlay/twinleaf-inspired, original lab UI)
+
+## License
+
+MIT — fan project, free forever for study and testing.
